@@ -1,14 +1,14 @@
 ---
-title: PLCnext Email & Text Alerts
+title: PLCnext Power BI Reports
 author: Jeremy Tomlinson
 author_title: Director of Engineering @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/1234704?v=4
-tags: [phoenix contact, plcnext, fathym, iot ensemble, plc controllers, microsoft azure, logic apps, devices, sensors, dashboards, email, text, alerts, notifications]
+tags: [phoenix contact, plcnext, fathym, iot ensemble, plc controllers, microsoft azure, power bi, devices, sensors, dashboards, reports]
 hide_table_of_contents: true
 ---
 
-Once you have your Phoenix Contact PLCnext Control data flowing to the cloud it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our PLCnext Control connect to Microsoft Azure.
+Once you have your Phoenix Contact PLCnext Control data flowing to the cloud it's time to create some Power BI reports so that you can easily monitor everything. But first things first, let's get our PLCnext Control connect to Microsoft Azure.
 
 ![Phoenix Contact PLCnext](/img/screenshots/PLCnext_controllers.png)
 
@@ -26,11 +26,11 @@ Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the da
 
 ![Fathym IoT Ensemble](/img/screenshots/iot-ensemble-connected-devices.png)
 
-## PLCnext Email & Text Alerts in Logic Apps
+## PLCnext Power BI Reports
 
-Now that my PLCnext data is flowing to IoT Ensemble, it's time to setup the email alerts using Logic Apps. This [IoT Ensemble doc](https://www.iot-ensemble.com/docs/devs/alerts/logic-apps) explains how to use Logic Apps to call the IoT Ensemble warm query every 12 hours and check if the Temperature of any of the results is greater than 45. If so, it sends an email alert. Here's a screenshot.
+Now that my PLCnext data is flowing to IoT Ensemble, it's time to create some Power BI reports to monitor everything. This [IoT Ensemble doc](https://www.iot-ensemble.com/docs/devs/storage/power-bi) explains how to import data from IoT Ensemble into Power BI and setup reports and visualizations. Here's a screenshot.
 
-![Email Alert Logic Apps](/img/screenshots/logic-apps-sendemail-settings.png)
+![Power BI Reports](https://powerbicdn.azureedge.net/mediahandler/blog/legacymedia/5078.dashboard5.png)
 
 [Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your company thousands of dollars in Azure setup and management costs. Enroll your first PLCnext Control with IoT Ensemble for free. No credit card required. No Azure account required. It really is that simple.
 
