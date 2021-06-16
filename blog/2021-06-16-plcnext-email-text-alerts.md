@@ -1,10 +1,10 @@
 ---
-title: PLCnext Email and Text Alerts
+title: PLCnext Email & Text Alerts
 author: Jeremy Tomlinson
 author_title: Director of Engineering @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/1234704?v=4
-tags: [phoenix contact, plcnext, fathym, iot ensemble, plc controllers, devices, sensors, dashboards, email, text, alerts, notifications]
+tags: [phoenix contact, plcnext, fathym, iot ensemble, plc controllers, microsoft azure, logic apps, devices, sensors, dashboards, email, text, alerts, notifications]
 hide_table_of_contents: true
 ---
 
@@ -16,12 +16,26 @@ Phoenix Contact has a video at https://youtu.be/QST1RpTkdfA that shows how to co
 
 ![IoT Ensemble List Device](/img/screenshots/plcnext-connstring.png)
 
-The PLCnext data is immediately flowing to IoT Ensemble and I can view the data on screen. Reminder that behind the scenes in IoT Ensemble the PLCnext data is stored in Microsoft Azure in blob storage, as well as in CosmosDB. Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the data instead of using the Azure portal - and it saves us a ton of time and money.
+The PLCnext data is immediately flowing to IoT Ensemble and I can view the data on screen. Reminder that behind the scenes in IoT Ensemble the PLCnext data is stored in Microsoft Azure in blob storage, as well as in CosmosDB. 
+
+:::tip How to access data in Microsoft Azure
+Behind the scenes in IoT Ensemble the PLCnext data is stored in Microsoft Azure in blob storage, as well as in CosmosDB. [Read This](https://www.iot-ensemble.com/docs/getting-started/connecting-downstream) to learn more about accessing your data.
+:::
+
+Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the data instead of using the Azure portal - and it saves us a ton of time and money.
 
 ![Fathym IoT Ensemble](/img/screenshots/iot-ensemble-connected-devices.png)
+
+## PLCnext Email & Text Alerts in Logic Apps
 
 Now that my PLCnext data is flowing to IoT Ensemble, it's time to setup the email alerts using Logic Apps. This [IoT Ensemble doc](https://www.iot-ensemble.com/docs/devs/alerts/logic-apps) explains how to use Logic Apps to call the IoT Ensemble warm query every 12 hours and check if the Temperature of any of the results is greater than 45. If so, it sends an email alert. Here's a screenshot.
 
 ![Email Alert Logic Apps](/img/screenshots/logic-apps-sendemail-settings.png)
 
-[Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your company thousands of dollars in Azure setup and management time. Enroll your first PLCnext Control with IoT Ensemble for free. No credit card required. No Azure account required. It really is that simple.
+[Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your company thousands of dollars in Azure setup and management costs. Enroll your first PLCnext Control with IoT Ensemble for free. No credit card required. No Azure account required. It really is that simple.
+
+:::info
+[Enroll your first PLCnext Control](https://www.iot-ensemble.com/dashboard) with IoT Ensemble for free.  
+No credit card required.  
+No Azure account required.
+:::
