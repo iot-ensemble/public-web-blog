@@ -8,7 +8,7 @@ tags: [phoenix contact, plcnext, fathym, iot ensemble, plc controllers, microsof
 hide_table_of_contents: true
 ---
 
-Once you have your Phoenix Contact PLCnext Control data flowing to the cloud it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our PLCnext Control connect to Microsoft Azure.
+Once you have your Phoenix Contact PLCnext Control data flowing to the cloud, it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our PLCnext Control connected to Microsoft Azure.
 
 ![Phoenix Contact PLCnext](/img/screenshots/PLCnext_controllers.png)
 
@@ -22,7 +22,7 @@ The PLCnext data is immediately flowing to IoT Ensemble and I can view the data 
 Behind the scenes in IoT Ensemble the PLCnext data is stored in Microsoft Azure in blob storage, as well as in CosmosDB. [Read This](https://www.iot-ensemble.com/docs/getting-started/connecting-downstream) to learn more about accessing your data.
 :::
 
-Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the data instead of using the Azure portal - and it saves us a ton of time and money.
+Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the data instead of using the Azure portal - and it saves me a ton of time and money.
 
 ![Fathym IoT Ensemble](/img/screenshots/iot-ensemble-connected-devices.png)
 
