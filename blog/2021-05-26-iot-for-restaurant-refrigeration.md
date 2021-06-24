@@ -4,7 +4,7 @@ author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url:  https://avatars.githubusercontent.com/u/48728918?v=4
-tags: [iot, restaurant, food loss, refrigeration, temperature sensor]
+tags: [iot, restaurant, food loss, refrigeration, temperature sensor, Arduino, ESP32, TMP117]
 hide_table_of_contents: true
 ---
 
@@ -21,7 +21,7 @@ One very important focus of a restaurant is the food and beverage inventories. R
 
 For foods requiring cold storage, refrigeration or freezing, a restaurant can employ a simple and cost-effective temperature sensor like the High Precision TMP117. With the sensor in place, the restaurant can be notified if the refrigeration were to go outside of expected ranges. This can save a restaurant owner a lot of “wallet-aches”, during equipment failures, on hot days when electrical brown outs happen, or bad weather days when the power lines are adversely affected.
 
-![Temperature Sensor](/img/screenshots/refrigeration_temperature_sensor.jpg)
+![Temperature Sensor](/img/screenshots/refrigeration_temperature_sensor.jpeg)
 
 [This tutorial](https://www.iot-ensemble.com/docs/tutorials/esp32-tmp117-fridge-monitor) takes you step-by-step through configuring the Arduino ESP32 Board with High Precision TMP117 Temperature Sensor from scratch, connecting it to IoT Ensemble, and then streaming the data to a dashboard and email/text alerts. This small proactive investment in technology can save you a lot of pain in the event of a problem. If you have any questions along the way, drop us a line at support@fathym.com and we will be happy to help.
 

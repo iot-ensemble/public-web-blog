@@ -4,7 +4,7 @@ author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url:  https://avatars.githubusercontent.com/u/48728918?v=4
-tags: [iot, floral, flowers, refrigeration, cooling, temperature sensor]
+tags: [iot, floral, flowers, refrigeration, cooling, temperature sensor, Arduino, ESP32, TMP117]
 hide_table_of_contents: true
 ---
 
@@ -13,7 +13,7 @@ The pandemic had a landslide effect. As the world shut down to keep people safe,
 
 One thing the aforementioned events share is the use of flowers. Flowers are used to symbolize different things, such as remembrance.  They are used for decorating. They are used for mourning. They can express love, romance, joy, gratitude, sympathy, remorse and so much more. The Rose Parade uses the flowers to tell the viewers about the paradise of Pasadena, CA, especially in January, while a lot of the USA is covered in snow and enduring cold weather. Across the world, flowers are a means of communication. 
 
-According to [these stats]https://whydoeseverythingsuck.net/blog/flower-industry-statistics/#:~:text=It's%20estimated%20the%20floral%20industry%20in%20the%20US%20is%20worth%20%245%20billion.,-(IBISWorld)&text=Based%20on%20the%20floral%20industry,with%20an%20estimated%2065%2C339%20workers.), the floral industry is worth about $5B in the USA and “there are 31,663 floral businesses in the country, with an estimated 65,339 workers.” A typical floral business is relatively small and makes a modest income. **The majority of floral shops bring in about $200K or less in sales, providing about a 10% salary and 10% profit.** 
+According to [these stats](https://whydoeseverythingsuck.net/blog/flower-industry-statistics/#:~:text=It's%20estimated%20the%20floral%20industry%20in%20the%20US%20is%20worth%20%245%20billion.,-(IBISWorld)&text=Based%20on%20the%20floral%20industry,with%20an%20estimated%2065%2C339%20workers.), the floral industry is worth about $5B in the USA and “there are 31,663 floral businesses in the country, with an estimated 65,339 workers.” A typical floral business is relatively small and makes a modest income. **The majority of floral shops bring in about $200K or less in sales, providing about a 10% salary and 10% profit.** 
 
 ![Floral Shop Owner](/img/screenshots/floral_shop_owner.jpg)
 

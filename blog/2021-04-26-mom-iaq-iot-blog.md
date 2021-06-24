@@ -4,7 +4,7 @@ author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url:  https://avatars.githubusercontent.com/u/48728918?v=4
-tags: [iaq, tvoc, iot, sparkfun, environmental sensor]
+tags: [iaq, tvoc, iot, SparkFun, environmental sensor, Arduino, ESP32]
 hide_table_of_contents: true
 ---
 
