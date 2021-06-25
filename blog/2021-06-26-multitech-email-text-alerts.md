@@ -1,5 +1,5 @@
 ---
-title: MultiTech Conduit Machine Learning
+title: MultiTech Email & Text Alerts
 author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
@@ -8,7 +8,7 @@ tags: [multitech, multitech conduit, fathym, iot ensemble, microsoft azure, mach
 hide_table_of_contents: true
 ---
 
-Once you have your MultiTech Conduit data flowing to the cloud, it's time to develop some fast and efficient algorithms and Machine Learning models for real-time processing of the data. Azure Machine Learning empowers us with a wide range of productive experiences for building, training, and deploying machine learning models faster. IoT Ensemble provides out of the box APIs that allow you to easily load your MultiTech data into Azure Machine Learning. But first things first, let's get our MultiTech Conduit connected to Microsoft Azure.
+Once you have your MultiTech Conduit data flowing to the cloud, it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our MultiTech Conduit connected to Microsoft Azure.
 
 ![MultiTech Conduit Diagram](/img/screenshots/MT_Conduit_Schematic_Diagram.png)
 
@@ -18,7 +18,7 @@ MultiTech Conduit has a great guide located at https://github.com/Azure/azure-io
 
 ![MultiTech Connection String Reference](/img/screenshots/MultiTech-Connectionstring-Reference.png)
 
-The MultiTech data is immediately flowing to IoT Ensemble and I can view the data on screen. Reminder that behind the scenes in IoT Ensemble the MultiTech data is stored in Microsoft Azure in blob storage, as well as in CosmosDB. 
+The MultiTech data is immediately flowing to IoT Ensemble and I can view the data on screen. Reminder that behind the scenes in IoT Ensemble the MultiTech data is stored in Microsoft Azure in blob storage, as well as in CosmosDB.  
 
 :::tip How to access data in Microsoft Azure
 Behind the scenes in IoT Ensemble the MultiTech data is stored in Microsoft Azure in blob storage, as well as in CosmosDB. [Read this](https://www.iot-ensemble.com/docs/getting-started/connecting-downstream) to learn more about accessing your data
@@ -28,13 +28,11 @@ Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the da
 
 ![Fathym IoT Ensemble](/img/screenshots/MultiTech-Dashboard.png)
 
-## MultiTech Conduit Azure Machine Learning
+## MultiTech Email & Text Alerts in Logic Apps
 
-IoT Ensemble provides out of the box APIs that allow you to easily load your MultiTech data into Azure Machine Learning. This [IoT Ensemble doc](https://www.iot-ensemble.com/docs/devs/storage/azure-ml) explains how to use IoT Ensemble's cold query to configure an Azure ML Dataset and an associated Automated ML Task to run your model. Here's a couple of screenshots.
+Now that my MultiTech data is flowing to IoT Ensemble, it's time to setup the email alerts using Logic Apps. This [IoT Ensemble doc](https://www.iot-ensemble.com/docs/devs/alerts/logic-apps) explains how to use Logic Apps to call the IoT Ensemble warm query every 12 hours and check if the Temperature of any of the results is greater than 45. If so, it sends an email alert. Here's a screenshot.
 
-![Azure Machine Learning Dataset](/img/screenshots/azure-ml-automated-ml-run-dataset-wizard-skip.png)
-
-![Azure Automated ML](/img/screenshots/azure-ml-automated-ml-running.png)
+![Email Alert Logic Apps](/img/screenshots/logic-apps-sendemail-settings.png)
 
 [Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your company thousands of dollars in Azure setup and management costs. Enroll your first MultiTech Conduit with IoT Ensemble for free. No credit card required. No Azure account required. It really is that simple.
 
