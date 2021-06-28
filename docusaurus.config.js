@@ -121,24 +121,17 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        blog: {
+          showReadingTime: true,
+          routeBasePath: '/',
+          // The iot-ensemble website blog repo
+          // editUrl: 'https://github.com/iot-ensemble/public-web-blog/edit/master/website/blog/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
-  ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: "a",
-        blogSidebarCount: 'ALL',
-        blogSidebarTitle: 'All our posts',
-        routeBasePath: '/',
-        include: ['*.md', '*.mdx'],
-        postsPerPage: 1
-      }
-    ]
   ],
   // plugins: [path.resolve(__dirname, 'plugins/oribi')],
 };
