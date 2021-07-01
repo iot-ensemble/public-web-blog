@@ -30,7 +30,7 @@ Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the da
 
 Now that my PLCnext data is flowing to IoT Ensemble, it's time to create some Grafana Dashboards to monitor everything. This [IoT Ensemble doc](https://www.iot-ensemble.com/docs/devs/storage/grafana) explains how to import data from IoT Ensemble into Grafana and setup a dashboard. Here's a screenshot.
 
-![Grafana Dashboard](/img/screenshots/grafana-6.JPG)
+![Grafana Dashboard](/img/screenshots/grafana-dashboard-plcnext.png)
 
 [Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your company thousands of dollars in Azure setup and management costs. Enroll your first PLCnext Control with IoT Ensemble for free. No credit card required. No Azure account required. It really is that simple.
 
