@@ -4,7 +4,7 @@ author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
-tags: [multitech, multitech conduit, fathym, iot ensemble, microsoft azure, machine learning, devices, sensors, models]
+tags: [multitech, multitech conduit, fathym, iot ensemble, microsoft azure, machine learning, devices, sensors, models, grafana]
 hide_table_of_contents: true
 ---
 
@@ -32,7 +32,7 @@ Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the da
 
 Now that my MultiTech data is flowing to IoT Ensemble, it's time to create some Grafana Dashboards to monitor everything. This [IoT Ensemble doc](https://www.iot-ensemble.com/docs/devs/storage/grafana) explains how to import data from IoT Ensemble into Grafana and setup a dashboard. Here's a screenshot.
 
-![Grafana Dashboard](/img/screenshots/grafana-6.JPG)
+![Grafana Dashboard](/img/screenshots/MultiTech-Grafana-Dashboard.png)
 
 [Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your company thousands of dollars in Azure setup and management costs. Enroll your first MultiTech Conduit with IoT Ensemble for free. No credit card required. No Azure account required. It really is that simple.
 

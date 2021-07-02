@@ -4,7 +4,7 @@ author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
-tags: [multitech, multitech conduit, fathym, iot ensemble, microsoft azure, machine learning, devices, sensors, models]
+tags: [multitech, multitech conduit, fathym, iot ensemble, microsoft azure, machine learning, devices, sensors, models, logic apps]
 hide_table_of_contents: true
 ---
 
