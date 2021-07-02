@@ -1,5 +1,5 @@
 ---
-title: Mikroe Conduit Machine Learning
+title: Mikroe Click Board Machine Learning
 author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
