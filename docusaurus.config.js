@@ -124,7 +124,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
-          blogSidebarCount: 'ALL',
+          blogSidebarCount: 10,
           blogSidebarTitle: 'All our posts',
           postsPerPage: 1,
           // The iot-ensemble website blog repo
