@@ -37,6 +37,12 @@ module.exports = {
           target: '_top',
         },
         {
+          href: 'https://www.iot-ensemble.com/dashboard',
+          label: 'Sign Up',
+          position: 'left',
+          target: '_top',
+        },
+        {
           href: 'https://www.iot-ensemble.com/pricing',
           label: 'Pricing',
           position: 'right',
@@ -59,12 +65,6 @@ module.exports = {
           position: 'right',
           target: '_top',
         },
-        {
-          href: 'https://www.iot-ensemble.com/dashboard',
-          label: 'Sign Up',
-          position: 'right',
-          target: '_top',
-        },        
       ],
     },
     footer: {
@@ -121,33 +121,17 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        // blog: {
-        //   showReadingTime: true,
-        //   routeBasePath: '/',
-        //   // blogSidebarCount: 'ALL',
-        //   // blogSidebarTitle: 'All our posts',
-        //   // postsPerPage: 1,
-        //   // The iot-ensemble website blog repo
-        //   // editUrl: 'https://github.com/iot-ensemble/public-web-blog/edit/master/website/blog/',
-        // },
+        blog: {
+          showReadingTime: true,
+          routeBasePath: '/',
+          // The iot-ensemble website blog repo
+          // editUrl: 'https://github.com/iot-ensemble/public-web-blog/edit/master/website/blog/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
-  ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: "a",
-        blogSidebarCount: 'ALL',
-        blogSidebarTitle: 'All our posts',
-        routeBasePath: '/',
-        include: ['*.md', '*.mdx'],
-        postsPerPage: 1
-      }
-    ]
   ],
   // plugins: [path.resolve(__dirname, 'plugins/oribi')],
 };
