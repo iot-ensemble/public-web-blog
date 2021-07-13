@@ -123,6 +123,7 @@ module.exports = {
       {
         blog: {
           showReadingTime: true,
+          path: './blog',
           routeBasePath: '/',
           // The iot-ensemble website blog repo
           // editUrl: 'https://github.com/iot-ensemble/public-web-blog/edit/master/website/blog/',
