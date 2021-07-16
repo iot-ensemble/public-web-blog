@@ -4,7 +4,7 @@ author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
-tags: [mikroe, mikroe click board, thermo 5 click, fathym, iot ensemble, microsoft azure, machine learning, devices, sensors, models, power bi]
+tags: [mikroe, mikroe click board, thermo 5 click, fathym, iot ensemble, microsoft azure, power bi, devices, sensors, dashboards, reports]
 hide_table_of_contents: true
 ---
 
