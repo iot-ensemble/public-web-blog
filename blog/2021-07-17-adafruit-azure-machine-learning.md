@@ -4,7 +4,7 @@ author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
-tags: [Adafruit, fathym, iot ensemble, microsoft azure, machine learning, devices, sensors, models, machine learning]
+tags: [adafruit, fathym, iot ensemble, microsoft azure, machine learning, devices, sensors, models]
 hide_table_of_contents: true
 ---
 

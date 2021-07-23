@@ -4,7 +4,7 @@ author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
-tags: [Adafruit, fathym, iot ensemble, microsoft azure, logic apps, devices, sensors, dashboards, email, text, alerts, notifications]
+tags: [adafruit, fathym, iot ensemble, microsoft azure, logic apps, devices, sensors, dashboards, email, text, alerts, notifications]
 hide_table_of_contents: true
 ---
 
