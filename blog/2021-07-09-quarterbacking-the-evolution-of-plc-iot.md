@@ -14,7 +14,7 @@ You, the manufacturer, have a deadline to meet and time is running out. Either y
 
 That’s where PLCs (Programmable Logic Controllers) come through in the clutch. 
 
-![Programmable Logic Controller](/img/screenshots/rkurtz1_generic_plc.png)
+![Programmable Logic Controller](https://www.iot-ensemble.com/img/screenshots/rkurtz1_generic_plc.png)
  
 PLCs can watch over the automation process, limiting the number of people needed on the line at one time, while making everything easier for you, the “coach.” 
 
@@ -31,7 +31,7 @@ Think easier to use, smarter, simpler and yes: Better than ever.
 
 Imagine checking in on your manufacturing process from your cell phone just as easily as you check scores on your favorite team. And this isn’t gimmicky hardware either, but robust enough to handle PLC needs large and small. 
 
-![Checking Status](/img/screenshots/rkurtz1_businessman_phone.png)
+![Checking Status](https://www.iot-ensemble.com/img/screenshots/rkurtz1_businessman_phone.png)
  
 For years, only a handful of companies have been able to offer PLCs to manufacturers, and that allowed them to charge those outrageous prices. Now, the smaller guys are getting involved and making noise, disrupting that business model and changing it completely. 
 
@@ -41,7 +41,7 @@ But, as the technology in the controllers becomes less expensive, we’re now se
 
 Now, not only can companies seek out less expensive and yet powerful PLCs, they can also choose to operate in an open ecosystem when it comes to the software side of things. While the giants of this space have traditionally controlled the software and held companies for ransom like a hostage crisis, **[Fathym](https://www.iot-ensemble.com)** and our partners are here to break clients free. 
 
-![Fathym](/img/screenshots/rkurtz1_fathym_input_output.png)
+![Fathym](https://www.iot-ensemble.com/img/screenshots/rkurtz1_fathym_input_output.png)
  
 We’re talking expansion and customization as unique as a coach’s playbook, and an ability to adapt on the fly to ever-changing conditions. 
 
@@ -49,6 +49,6 @@ We’re talking expansion and customization as unique as a coach’s playbook, a
 Want to know more about this newer, easier, smaller company with a more approachable price point? We’ll be introducing you to PLCnext and Phoenix Contact in our next blog.
 :::
 
-![Phoenix Contact](/img/screenshots/PLCnext_controllers.png)
+![Phoenix Contact](https://www.iot-ensemble.com/img/screenshots/PLCnext_controllers.png)
  
 Just like the game of football – evolving with the forward pass 100 years ago, and into the exciting, entertaining empire of today – the world of PLCs is evolving right before our eyes. 
