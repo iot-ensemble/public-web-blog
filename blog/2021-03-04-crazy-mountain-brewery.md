@@ -14,7 +14,7 @@ One of the breweries in our back yard is Crazy Mountain Brewery. They started op
 
 Crazy Mountain knows that complete temperature control is essential during the brewing process. They wanted to be notified via text when the boiler temp dropped below 150 degrees or when the glycol temp was greater than 41.
 
-![Crazy Mountain Brewery](/img/screenshots/cmb-tanks.jpg)
+![Crazy Mountain Brewery](https://www.iot-ensemble.com/img/screenshots/cmb-tanks.jpg)
 
 For this project, Crazy Mountain used a Raspberry Pi connected to a Temperature Sensor to monitor the brewery's boiler tank and a Waterproof Temperature Probe to monitor the glycol tank. The Raspberry Pi was connected to [IoT Ensemble](https://www.iot-ensemble.com) and the data was streamed to a dashboard where the alerts were setup. The alerts had the potential to make a real difference. Within a couple of weeks all of the hard work paid off when the brewery lost power.
 
@@ -25,4 +25,4 @@ The mission was a success. You can do the same for your brewery. [This blog](htt
 
 [Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your brewery thousands of dollars in time and lost product. Enroll your first device for free. No credit card required.
 
-![Fathym and CMB](/img/screenshots/crazy-mountain-brewery.jpg)
+![Fathym and CMB](https://www.iot-ensemble.com/img/screenshots/crazy-mountain-brewery.jpg)
