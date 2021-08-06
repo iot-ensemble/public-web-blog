@@ -26,6 +26,11 @@ jobs:
 
     - name: Echo current branch
       run: echo "The current branch is ${{ steps.vars.outputs.branchName }}"
+      
+    - name: replace slash with dash in branch name
+      if: ${{ steps.vars.outputs.branchName != 'integration' }}
+      shell: pwsh
+      run: $newName = $branchName -replace "feature/","feature-" | Write-Host ::set-output name=branchName::$newName
 
     # bump version and push tag
     - name: Bump version and push tag
@@ -46,11 +51,6 @@ jobs:
     - name: replace version text
       shell: pwsh
       run: (Get-Content -path package.json -Raw) -replace "version patch","version ${{ steps.versionBump.outputs.new_tag }}-${{ steps.vars.outputs.branchName }} --no-git-tag-version -f" | Set-Content -Path package.json
-
-    - name: replace slash with dash in branch name
-      if: ${{ steps.vars.outputs.branchName != 'integration' }}
-      shell: pwsh
-      run: (Get-Content -path package.json -Raw) -replace "feature/","feature-" | Set-Content -Path package.json
 
     # run npm commands
     - uses: actions/setup-node@v2
