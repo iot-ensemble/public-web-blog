@@ -30,10 +30,10 @@ jobs:
     - name: replace slash with dash in branch name
       if: ${{ steps.vars.outputs.branchName != 'integration' }}
       shell: pwsh
-      run: Write-Host ::set-output name=branchName::($branchName -replace "feature/","feature-")
+      run: Write-Host ::set-output name=newName::($branchName -replace "feature/","feature-")
       
     - name: Echo final branch name
-      run: echo "The final branch name is ${{ steps.vars.outputs.branchName }}"      
+      run: echo "The final branch name is ${{ steps.vars.outputs.newName }}"      
 
     # bump version and push tag
     - name: Bump version and push tag
