@@ -32,7 +32,10 @@ jobs:
       shell: pwsh
       run: |
         $finalName = ($branchName -replace "feature/","feature-")
-        Write-Host ::set-output name=branchName::$finalName         
+        Write-Host ::set-output name=branchName::$(finalName)
+
+    - name: Echo final branch
+      run: echo "The final branch is ${{ steps.vars.outputs.branchName }}"    
 
     # bump version and push tag
     - name: Bump version and push tag
