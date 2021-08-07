@@ -29,13 +29,14 @@ jobs:
       
     - name: replace slash with dash in branch name
       if: ${{ steps.vars.outputs.branchName != 'integration' }}
+      id: vars2
       shell: pwsh
       run: |
         $finalName = ($branchName -replace "feature/","feature-")
         echo "::set-output name=finalName::$finalName"
 
     - name: Echo final branch
-      run: echo "The final branch is ${{ steps.vars.outputs.finalName }}"    
+      run: echo "The final branch is ${{ steps.vars2.outputs.finalName }}"    
 
     # bump version and push tag
     - name: Bump version and push tag
