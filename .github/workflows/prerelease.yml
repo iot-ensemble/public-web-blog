@@ -22,7 +22,7 @@ jobs:
     # set branch name variable
     - name: Set branch name variable
       id: vars
-      run: echo ::set-output name=branchName::${GITHUB_REF#refs/heads/}
+      run: echo ::set-output name=branchName::${GITHUB_REF##*/}
       
     - name: Echo current branch
       run: echo "The current branch is ${{ steps.vars.outputs.branchName }}"            
