@@ -22,15 +22,10 @@ jobs:
     # set branch name variable
     - name: Set branch name variable
       id: vars
-      run: echo ::set-output name=branchName::${GITHUB_REF#refs/*/}
-
-    - name: Echo current branch
-      run: echo "The current branch is ${{ steps.vars.outputs.branchName }}"
+      run: echo ::set-output name=branchName::${GITHUB_REF##*/}
       
-    - name: replace slash with dash in branch name
-      if: ${{ steps.vars.outputs.branchName != 'integration' }}
-      shell: pwsh
-      run: $newName = $branchName -replace "feature/","feature-" | Write-Host ::set-output name=branchName::$newName
+    - name: Echo current branch
+      run: echo "The current branch is ${{ steps.vars.outputs.branchName }}"            
 
     # bump version and push tag
     - name: Bump version and push tag
