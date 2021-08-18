@@ -36,12 +36,12 @@ module.exports = {
           position: 'left',
           target: '_top',
         },
-        {
-          href: 'https://www.iot-ensemble.com/dashboard',
-          label: 'Sign Up',
-          position: 'left',
-          target: '_top',
-        },
+        // {
+        //   href: 'https://www.iot-ensemble.com/dashboard',
+        //   label: 'Sign Up',
+        //   position: 'left',
+        //   target: '_top',
+        // },
         // {
         //   href: 'https://www.iot-ensemble.com/pricing',
         //   label: 'Pricing',
