@@ -48,6 +48,7 @@ module.exports = {
         //   position: 'right',
         //   target: '_top',
         // },
+        },
         {
           href: 'https://www.iot-ensemble.com/docs',
           label: 'Docs',
@@ -65,6 +66,12 @@ module.exports = {
           position: 'right',
           target: '_top',
         },
+        {
+          href: 'https://www.iot-ensemble.com/dashboard',
+          label: 'Sign Up',
+          position: 'right',
+          target: '_top',
+        },        
       ],
     },
     footer: {
@@ -124,6 +131,9 @@ module.exports = {
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All our posts',
+          postsPerPage: 1,
           // The iot-ensemble website blog repo
           // editUrl: 'https://github.com/iot-ensemble/public-web-blog/edit/master/website/blog/',
         },

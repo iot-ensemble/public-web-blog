@@ -12,7 +12,7 @@ Brewing is a complicated process. It takes a high level of precision to deliver 
 
 Fathym was contacted by a craft brewery in Denver, Colorado that needed help monitoring their boiler and glycol systems. They wanted an automated way to receive email/text alerts when problems arose with the equipment. Fathym accepted the challenge. *And we love beer.
 
-![Brewing Solution](/img/screenshots/brewery-iot4.png)
+![Brewing Solution](https://www.iot-ensemble.com/img/screenshots/brewery-iot4.png)
 
 ## The Hard Way
 
@@ -33,4 +33,4 @@ This blog [Connecting Raspberry Pi/DHT11, Node Red, and Power BI with IoT Ensemb
 
 [Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your brewery thousands of dollars in time and lost product. Enroll your first device for free. No credit card required.
 
-![Brewing Results](/img/screenshots/iot-ensemble-connected-devices.png)
+![Brewing Results](https://www.iot-ensemble.com/img/screenshots/iot-ensemble-connected-devices.png)

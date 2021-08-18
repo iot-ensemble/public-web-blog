@@ -94,7 +94,7 @@ For more advanced users, there is an option to control your Raspberry Pi remotel
 
 Next, we need to wire up the DHT11 sensor to the Raspberry Pi. Thankfully, this simple sensor doesn’t need any complex wiring, resistors, or breadboards. Simply follow the wiring diagram provided below:
 
-![Modified Pi Wiring](/img/modifiedPiWiring.png)
+![Modified Pi Wiring](https://www.iot-ensemble.com/img/modifiedPiWiring.png)
 
 The [GPIO pins](https://www.raspberrypi.org/documentation/usage/gpio/) allow the Raspberry Pi to control and monitor the outside world by being connected to electronic circuits.  It's important to be aware of which pin is which.  The DHT11 Sensor has been wired as follows:
 
@@ -118,7 +118,7 @@ In the top right, there will be a URL that usually starts with '**http://192…*
 
 ![Node Red Interface](https://steemitimages.com/640x0/https://steemitimages.com/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J/DQmTsV5oGxLJa3MgJWrqQJ43a5SfdKJDrqtY1yjWJuBRD4J.png)
 
-Welcome to Node-Red! There are a few additional modules that we will need in order to create our device flow. In the top right corner of the screen, click on the <img src="/img/screenshots/icon-node-red-menu.png" class="text-image" />, and then click **Manage palette**. On the new screen, click on the **Install** tab. In the search bar, type in the following and install each of them:
+Welcome to Node-Red! There are a few additional modules that we will need in order to create our device flow. In the top right corner of the screen, click on the <img src="https://www.iot-ensemble.com/img/screenshots/icon-node-red-menu.png" class="text-image" />, and then click **Manage palette**. On the new screen, click on the **Install** tab. In the search bar, type in the following and install each of them:
 
 - node-red-contrib-azure-iot-hub
 - node-red-contrib-dht-sensor
@@ -126,10 +126,10 @@ Welcome to Node-Red! There are a few additional modules that we will need in ord
 For the sake of simplicity, we are able to import previously created flows into Node Red. The following flow template takes temperature and humidity information from the DHT11, formats the JSON payload to use [IoT Ensemble's Best Practice Schema](http://www.iot-ensemble.com/docs/developers/device-setup/iot-best-practice-schema-explained) (in addition, uses a few extra fields like **key** and **protocol** to work with the Azure IoT Hub module), and takes a reading every 30 seconds. To use this template, copy the following Node-Red JSON template:
 
 ```json
-[{"id":"e97f8ba8.2829d8","type":"tab","label":"DHT11 Sensor with Raspberry Pi to Fathym IoT Ensemble","disabled":false,"info":"This simple flow is designed to get basic temperature and humidity readings into Fathym's IoT Ensemble dashboard"},{"id":"2fe1190e.141286","type":"inject","z":"e97f8ba8.2829d8","name":"Take reading every 30 seconds","props":[{"p":"payload"}],"repeat":"30","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":440,"wires":[["2f3407d4.26b858"]]},{"id":"2f3407d4.26b858","type":"rpi-dht22","z":"e97f8ba8.2829d8","name":"DHT11 Sensor","topic":"","dht":"11","pintype":"0","pin":4,"x":500,"y":440,"wires":[["1fa2f6c2.9637b9"]]},{"id":"1fa2f6c2.9637b9","type":"change","z":"e97f8ba8.2829d8","name":"Format JSON","rules":[{"t":"set","p":"payload","pt":"msg","to":"{\t\t\"DeviceID\": \"Your DeviceID\",\t\t\"key\": \"Your Device Key\",\t\t\"protocol\": \"mqtt\",\t\t\"data\": {\t\t\"DeviceID\": \"Your DeviceID\",\t\t\"DeviceData\": {\t\t\t\"Latitude\": \"40.5853° N\",\t\t\t\"Longitude\": \"105.0844° W\"\t\t},\t\t\"SensorReadings\": {\t\t\t\"Temperature\": $number(payload),\t\t\t\"Humidity\": $number(humidity)\t\t},\t\t\"SensorMetadata\": {\t\t\t\"_\": {\t\t\t\t\"SignalStrength\": \"Good\",\t\t\t\t\"SensorType\": \"DHT11\"\t\t\t}\t\t}\t\t}\t}","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":760,"y":440,"wires":[["8601cbe1.84e998","fc1e92ea.2210b"]]},{"id":"8601cbe1.84e998","type":"debug","z":"e97f8ba8.2829d8","name":"Local Debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":970,"y":380,"wires":[]},{"id":"fc1e92ea.2210b","type":"azureiothub","z":"e97f8ba8.2829d8","name":"Azure IoT Hub","protocol":"mqtt","x":980,"y":500,"wires":[[]]}]
+[{"id":"e97f8ba8.2829d8","type":"tab","label":"DHT11 Sensor with Raspberry Pi to Fathym IoT Ensemble","disabled":false,"info":"This simple flow is designed to get basic temperature and humidity readings into Fathym's IoT Ensemble dashboard"},{"id":"2fe1190e.141286","type":"inject","z":"e97f8ba8.2829d8","name":"Take reading every 30 seconds","props":[{"p":"payload"}],"repeat":"30","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":440,"wires":[["2f3407d4.26b858"]]},{"id":"2f3407d4.26b858","type":"rpi-dht22","z":"e97f8ba8.2829d8","name":"DHT11 Sensor","topic":"","dht":"11","pintype":"0","pin":4,"x":500,"y":440,"wires":[["1fa2f6c2.9637b9"]]},{"id":"1fa2f6c2.9637b9","type":"change","z":"e97f8ba8.2829d8","name":"Format JSON","rules":[{"t":"set","p":"payload","pt":"msg","to":"{\t\t\"deviceId\": \"Your DeviceID\",\t\t\"key\": \"Your Device Key\",\t\t\"protocol\": \"mqtt\",\t\t\"data\": {\t\t\"DeviceID\": \"Your DeviceID\",\t\t\"DeviceData\": {\t\t\t\"Latitude\": \"40.5853° N\",\t\t\t\"Longitude\": \"105.0844° W\"\t\t},\t\t\"SensorReadings\": {\t\t\t\"Temperature\": $number(payload),\t\t\t\"Humidity\": $number(humidity)\t\t},\t\t\"SensorMetadata\": {\t\t\t\"_\": {\t\t\t\t\"SignalStrength\": \"Good\",\t\t\t\t\"SensorType\": \"DHT11\"\t\t\t}\t\t}\t\t}\t}","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":760,"y":440,"wires":[["8601cbe1.84e998","fc1e92ea.2210b"]]},{"id":"8601cbe1.84e998","type":"debug","z":"e97f8ba8.2829d8","name":"Local Debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":970,"y":380,"wires":[]},{"id":"fc1e92ea.2210b","type":"azureiothub","z":"e97f8ba8.2829d8","name":"Azure IoT Hub","protocol":"mqtt","x":980,"y":500,"wires":[[]]}]
 ```
 
-In the Node-Red browser screen, click on the <img src="/img/screenshots/icon-node-red-menu.png" class="text-image" /> at the top right of the screen, and choose **Import**. Paste the JSON into the text box, and click **Import**. You will now have a visual representation of the flow of data from the device.
+In the Node-Red browser screen, click on the <img src="https://www.iot-ensemble.com/img/screenshots/icon-node-red-menu.png" class="text-image" /> at the top right of the screen, and choose **Import**. Paste the JSON into the text box, and click **Import**. You will now have a visual representation of the flow of data from the device.
 
 :::note
 
@@ -151,9 +151,9 @@ Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com
 
 In the **Connected Devices** section, click the **Enroll New Device** button, provide a name for your device (i.e. my-first-device) and click **Enroll Device**.  That’s it!  Your device is now registered and should be visible in the dashboard, along with its associated connection string.
 
-![Dashboard device list first device](/img/screenshots/dashboard-device-list-first-device.png)
+![Dashboard device list first device](https://www.iot-ensemble.com/img/screenshots/dashboard-device-list-first-device.png)
 
-Click on the <img src="/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
+Click on the <img src="https://www.iot-ensemble.com/img/screenshots/icon-copy.png" class="text-image" /> button to copy your connection string to your clipboard. Your connection string should look something like this:
 
 > HostName=**YourHostName**;DeviceId=**YourDeviceID**;SharedAccessKey=**YourDeviceKey**
 
@@ -165,11 +165,11 @@ Within the connection string, there are three key parts that we need: The **Host
 
 Next, click on the three-dot menu screen (shown in the red box below). This will pull up an "Edit" screen for your flow.
 
-![Format JSON Properties Updated](/img/screenshots/format-json-properties-new.png)
+![Format JSON Properties Updated](https://www.iot-ensemble.com/img/screenshots/format-json-properties-new.png)
 
  From here, take the **YourDeviceID** and **YourDeviceKey** values from your connection string and paste them into the properties shown in the red boxes below. Click **Done**, and then **Done** again to close the module properties screen.
 
-![Replace ID and key](/img/screenshots/replace-id-and-key-new.png)
+![Replace ID and key](https://www.iot-ensemble.com/img/screenshots/replace-id-and-key-new.png)
 
 :::note
 
@@ -179,11 +179,11 @@ For this specific example, **DeviceID** has to be entered twice. This is because
 
 Next, double click on the **"Azure IoT Hub"** node module. This will open a **Properties** screen, shown below.  Take your **HostName**, and paste it into the red box shown above. Click **Done**, and then **Done** again to close the module properties screen.
 
-![Update Hostname](/img/screenshots/update_hostname.png)
+![Update Hostname](https://www.iot-ensemble.com/img/screenshots/update_hostname.png)
 
 Once this is complete, click the red **Deploy** button in the top right corner. Your Pi is now sending real time data to IoT Ensemble!  Simply [enable live telemetry](https://www.iot-ensemble.com/docs/getting-started/viewing-device-data) and investigate your data.
 
-![Dashboard First Device Telemetry](/img/screenshots/dashboard-first-device-telemetry.png)
+![Dashboard First Device Telemetry](https://www.iot-ensemble.com/img/screenshots/dashboard-first-device-telemetry.png)
 
 ## Part 6 - Connecting Data to Power BI Desktop
 
@@ -195,7 +195,7 @@ Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as w
 
 IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Power BI.
 
-![Storage Access](/img/screenshots/dashboard-storage-access.png)
+![Storage Access](https://www.iot-ensemble.com/img/screenshots/dashboard-storage-access.png)
 
 :::note
 
@@ -207,11 +207,11 @@ IoT Ensemble Storage Access can be leveraged to connect to many diffrent types o
 
 Make sure that you've downloaded and installed [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/).  Once installed, launch it and go to **Get Data -> Web**. As you may have guessed, this data source will allow you to import data from the web.
 
-![Power BI Get Data Web](/img/screenshots/power-bi-get-data-web.png)
+![Power BI Get Data Web](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web.png)
 
 Once this has been selected, a popup will appear allowing input of the API URL. You will need to select the **Advanced** radio button to input the **Access Key** as an additional header parameter.
 
-![Power BI From Web Advanced](/img/screenshots/power-bi-from-web-advanced.png)
+![Power BI From Web Advanced](https://www.iot-ensemble.com/img/screenshots/power-bi-from-web-advanced.png)
 
 The API request URL can be obtained from the dashboard using either the cold or warm query APIs.  Here is a sample cold query URL you can start with, and the dashboard will assist in discovering the parameters for this query.
 
@@ -231,7 +231,7 @@ https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType
 
 Now input the request URL from above (or obtained from the dashboard) into the Power BI **URL Parts** text field.  Then enter `lcu-subscription-key` as a header parameter key, along with the **Access Key** copied from IoT Ensemble Dashboard in the value text field.
 
-![Power BI From web Advanced Enter Values](/img/screenshots/power-bi-from-web-advanced-enter-values.png)
+![Power BI From web Advanced Enter Values](https://www.iot-ensemble.com/img/screenshots/power-bi-from-web-advanced-enter-values.png)
 
 With these values entered, select **OK** and the Power Query Editor will load your JSON payloads.  These will need to be converted to a table before you can visualize your data.
 
@@ -239,13 +239,13 @@ With these values entered, select **OK** and the Power Query Editor will load yo
 
 Now that the data is connected into our report, we need to convert it to a table.  Do this by selecting **To Table** and then **OK** from the following popup.
 
-![Power BI Get Data Web to Table](/img/screenshots/power-bi-get-data-web-to-table.png)
+![Power BI Get Data Web to Table](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web-to-table.png)
 
-![Power BI Get Data Web to Table Prompt](/img/screenshots/power-bi-get-data-web-to-table-prompt.png)
+![Power BI Get Data Web to Table Prompt](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web-to-table-prompt.png)
 
 The data is still showing as a single complex option.  Select the **expand arrows** icon and Power BI will begin to break down the complex object into columns.
 
-![Power BI Get Data Web Table Expand](/img/screenshots/power-bi-get-data-web-table-expand.png)
+![Power BI Get Data Web Table Expand](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web-table-expand.png)
 
 After converting to a table and expanding the record, you may notice that some columns still say **Record**. You will need to repeat this expanding process on those columns to expose the nested json data for use in Power BI.
 
@@ -259,7 +259,7 @@ Additional information on how to shape your data can be found all over the inter
   
 When your query is where you want it, select **Close & Apply** from Power Query Editor's File menu.
 
-![Power BI Get Data Web Close and Apply](/img/screenshots/power-bi-get-data-web-close-apply.png)
+![Power BI Get Data Web Close and Apply](https://www.iot-ensemble.com/img/screenshots/power-bi-get-data-web-close-apply.png)
 
 This action applies the changes and closes the editor.  The transformed dataset appears in the Power BI Desktop, ready to be used for creating reports.
 
@@ -267,11 +267,11 @@ This action applies the changes and closes the editor.  The transformed dataset 
 
 Now that you have transformed and loaded your data, it is time to prepare reports and visualizations for data interpretation and analysis.  In the Fields pane on the right, you see the fields in the data model you just transformed and created.
 
-![Power BI Data Fields](/img/screenshots/power-bi-data-fields.png)
+![Power BI Data Fields](https://www.iot-ensemble.com/img/screenshots/power-bi-data-fields.png)
 
 Power BI can help you create compelling reports where you can change visualizations, customize colors or axes, apply filters, drag fields, and more!  All these changes are fun to do, easy to undo, and quick to take effect.  The **Visualizations** pane provides the tools necessary for adding and configuring multiple visualizations.  Power BI has a growing list of visualizations you can download and use in your own reports that transforms complicated data into something easy to understand.  This ease provides insights to make informed decisions quickly.
 
-![Power BI Get Data Web Close and Apply](/img/screenshots/power-bi-visualizations.png)
+![Power BI Get Data Web Close and Apply](https://www.iot-ensemble.com/img/screenshots/power-bi-visualizations.png)
 
 Additional information on how to visualize and bring your data to life can be located across the internet.  You can get started on [building your report](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-excel-stunning-report#build-your-report) and work through a quick [10 minute example](https://docs.microsoft.com/en-us/learn/modules/build-your-first-power-bi-report/4-exercise-create-visuals-in-power-bi) to get you going.
 
