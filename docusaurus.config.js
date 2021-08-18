@@ -48,7 +48,7 @@ module.exports = {
         //   position: 'right',
         //   target: '_top',
         // },
-        },
+        
         {
           href: 'https://www.iot-ensemble.com/docs',
           label: 'Docs',
