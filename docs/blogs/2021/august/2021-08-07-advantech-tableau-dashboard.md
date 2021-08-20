@@ -8,6 +8,8 @@ tags: [advantech, fathym, iot ensemble, tableau, dashboard, devices, sensors]
 hide_table_of_contents: true
 ---
 
+> August 7, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your Advantech Edge Intelligent RTU data flowing to the cloud, it's time to create some Tableau Dashboards so that you can easily monitor everything. But first things first, let's get our Advantech Edge Intelligent RTU connected to Microsoft Azure.
 
 ![Advantech Logo](https://www.iot-ensemble.com/img/screenshots/Advantech_Device_Banner_1200x300.jpg)

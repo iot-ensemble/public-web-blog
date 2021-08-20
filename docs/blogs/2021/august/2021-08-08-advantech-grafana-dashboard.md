@@ -8,6 +8,8 @@ tags: [advantech, fathym, iot ensemble, devices, sensors, grafana, dashboards]
 hide_table_of_contents: true
 ---
 
+> August 8, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your Advantech Edge Intelligent RTU data flowing to the cloud, it's time to create some Grafana Dashboards so that you can easily monitor everything. But first things first, let's get our Advantech Edge Intelligent RTU connected to Microsoft Azure.
 
 ![Advantech Logo](https://www.iot-ensemble.com/img/screenshots/advantech-bubble-diagram.jpg)

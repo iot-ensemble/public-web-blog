@@ -1,4 +1,5 @@
 ---
+slug: /
 title: Advantech Power BI Reports
 author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
@@ -7,6 +8,8 @@ author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
 tags: [advantech, fathym, iot ensemble, microsoft azure, power bi, devices, sensors, dashboards, reports]
 hide_table_of_contents: true
 ---
+
+> August 8, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
 
 Once you have your Advantech Edge Intelligent RTU data flowing to the cloud, it's time to create some Power BI reports so that you can easily monitor everything. But first things first, let's get our Advantech Edge Intelligent RTU connected to Microsoft Azure.
 

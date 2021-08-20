@@ -1,54 +1,72 @@
 module.exports = {
   docs: {
-    Introduction: ['introduction/overview', 'introduction/support'],
-    'Getting Started': [
-      'getting-started/setup',
-      'getting-started/emulated-data',
-      'getting-started/connecting-first-device',
-      'getting-started/viewing-device-data',
-      'getting-started/connecting-downstream-services',
-      'getting-started/buy-and-scale',
-    ],
-    Tutorials: [
-      "tutorials/arduino-esp32-and-enviro-sensor"
-    ],
-    Developers: [
-      'developers/licenses',
-      // 'developers/azure-iot-hub-explained',
+  },
+  blogs: {
+    2021: [
       {
-        'Device Setup': [
-          'developers/device-setup/overview',
-          'developers/device-setup/iot-best-practice-schema-explained',
-          {
-            Connect: [
-              //'developers/device-setup/connect/overview',
-              'developers/device-setup/connect/http',
-              //'developers/device-setup/connect/azure-iot-devices-sdk',
-              //'developers/device-setup/connect/device-simulator',
-              //'developers/device-setup/connect/rasp-pi-spark-fun',
-              //'developers/device-setup/connect/node-red',
-            ],
-          },
+        'August': [
+          'blogs/2021/august/2021-08-08-advantech-powerbi-dashboard',
+          'blogs/2021/august/2021-08-08-advantech-grafana-dashboard',
+          'blogs/2021/august/2021-08-07-advantech-tableau-dashboard',
+          'blogs/2021/august/2021-08-03-advantech-azure-machine-learning',
+          'blogs/2021/august/2021-08-03-advantech-email-text-alerts',
         ],
-        'Alerts/Notifications': [
-            "developers/alerts/logic-apps",
-            "developers/alerts/grafana"
+        'July': [
+          'blogs/2021/july/2021-07-30-high-tech-successful-garden',
+          'blogs/2021/july/2021-07-23-making-plcs-easy',
+          'blogs/2021/july/2021-07-17-adafruit-tableau-dashboard',
+          'blogs/2021/july/2021-07-17-adafruit-powerbi-dashboard',
+          'blogs/2021/july/2021-07-17-adafruit-grafana-dashboard',
+          'blogs/2021/july/2021-07-17-adafruit-email-text-alerts',
+          'blogs/2021/july/2021-07-17-adafruit-azure-machine-learning',
+          'blogs/2021/july/2021-07-13-automationdirect-grafana-dashboard',
+          'blogs/2021/july/2021-07-13-automationdirect-email-text-alerts',
+          'blogs/2021/july/2021-07-13-automationdirect-azure-machine-learning',
+          'blogs/2021/july/2021-07-12-automationdirect-tableau-dashboard',
+          'blogs/2021/july/2021-07-12-automationdirect-powerbi-reports',
+          'blogs/2021/july/2021-07-09-quarterbacking-the-evolution-of-plc-iot',
+          'blogs/2021/july/2021-07-03-mikroe-tableau-dashboard',
+          'blogs/2021/july/2021-07-03-mikroe-powerbi-reports',
+          'blogs/2021/july/2021-07-03-mikroe-grafana-dashboard',
+          'blogs/2021/july/2021-07-03-mikroe-email-text-alerts',
+          'blogs/2021/july/2021-07-03-mikroe-azure-machine-learning',
+          'blogs/2021/july/2021-07-01-multitech-tableau-dashboard',
         ],
-        'Storage Access': [
-          //  'developers/storage-access/overview',
-              'developers/storage-access/power-bi', 
-              'developers/storage-access/azure-ml',
-              'developers/storage-access/grafana',
-              'developers/storage-access/tableau',
-              'developers/storage-access/sql-server',
+        'June': [
+          'blogs/2021/june/2021-06-29-plcnext-tableau-dashboard',
+          'blogs/2021/june/2021-06-26-multitech-powerbi-reports',
+          'blogs/2021/june/2021-06-26-multitech-grafana-dashboard',
+          'blogs/2021/june/2021-06-26-multitech-email-text-alerts',
+          'blogs/2021/june/2021-06-26-multitech-azure-machine-learning',
+          'blogs/2021/june/2021-06-25-iot-for-floral-cooling',
+          'blogs/2021/june/2021-06-18-plcnext-azure-machine-learning',
+          'blogs/2021/june/2021-06-16-plcnext-powerbi-reports',
+          'blogs/2021/june/2021-06-16-plcnext-grafana-dashboard',
+          'blogs/2021/june/2021-06-16-plcnext-email-text-alerts',
         ],
-      },
+        'May': [
+          'blogs/2021/may/2021-05-26-iot-for-restaurant-refrigeration',
+        ],
+        'April': [
+          'blogs/2021/april/2021-04-26-mom-iaq-iot-blog',
+        ],
+        'March': [
+          'blogs/2021/march/2021-03-04-crazy-mountain-brewery',
+        ],
+        'February': [
+          'blogs/2021/february/2021-02-08-iot-ensemble-for-brewing',
+        ],
+        'January': [
+          'blogs/2021/january/2021-01-25-raspberry-pi-and-dht11',
+          'blogs/2021/january/2021-01-24-introducing-iot-ensemble',
+        ],
+      },      
     ],
   },
   api: {
-    Introduction: ['api/introduction/overview'],
+    //Introduction: ['api/introduction/overview'],
   },
   drafts: {
-    Blogs: ['drafts/template-blog-entry'],
+    //Blogs: ['drafts/template-blog-entry'],
   },
 };
