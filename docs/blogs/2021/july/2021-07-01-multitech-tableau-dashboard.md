@@ -8,6 +8,8 @@ tags: [multitech, multitech conduit, fathym, iot ensemble, tableau, dashboard, d
 hide_table_of_contents: true
 ---
 
+July 1, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your MultiTech Conduit data flowing to the cloud, it's time to create some Tableau Dashboards so that you can easily monitor everything. But first things first, let's get our MultiTech Conduit connected to Microsoft Azure.
 
 ![MultiTech Conduit Diagram](https://www.iot-ensemble.com/img/screenshots/MT_Conduit_Schematic_Diagram.png)

@@ -8,6 +8,7 @@ tags: [iot, restaurant, food loss, refrigeration, temperature sensor, Arduino, E
 hide_table_of_contents: true
 ---
 
+May 26, 2021 by Kim Loomis, _Product Owner @ Fathym_
 
 Keeping a restaurant up and going and profitable has been really difficult with the pandemic. Restaurants have been in various states of being closed, then opened partially or only open for take-out or delivery. Most restaurants have an average profit margin somewhere around 6% at optimal times. During the pandemic, margins took a severe hit, to the point where some restaurants had to shutter their doors. To keep that margin up, restaurants must closely monitor their cost of goods (food and beverage inventories), labor (salaried and hourly employees plus other labor expenses) and overhead (controllable expenses like marketing and promotions and fixed operating expenses such as rent and utilities).
 

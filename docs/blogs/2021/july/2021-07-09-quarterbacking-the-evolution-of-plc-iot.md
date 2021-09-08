@@ -8,6 +8,8 @@ tags: [iot, plcs, manufacturing, plcnext, phoenix contact]
 hide_table_of_contents: true
 ---
 
+July 9, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
+
 _It's 4th-and-goal with the game on the line._
 
 You, the manufacturer, have a deadline to meet and time is running out. Either you convert, and are the hero, or fail and fall short of goals. Unfortunately, due to the grueling schedule, your team is tired. 

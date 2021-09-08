@@ -8,6 +8,7 @@ tags: [iot, floral, flowers, refrigeration, cooling, temperature sensor, Arduino
 hide_table_of_contents: true
 ---
 
+June 25, 2021 by Kim Loomis, _Product Owner @ Fathym_
 
 The pandemic had a landslide effect. As the world shut down to keep people safe, businesses shut down or had limited hours. With places shut down, events were canceled or incurred long delays. Some of the canceled events that caused the most disappointment were weddings and other in-person celebrations like graduations, holiday get-togethers, religious ceremonies and even funerals. Even huge outdoor events like the Tournament of Roses Parade in Pasadena, CA was canceled! The pandemic had far-reaching effects across the world.
 

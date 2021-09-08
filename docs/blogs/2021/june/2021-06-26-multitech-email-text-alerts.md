@@ -8,6 +8,8 @@ tags: [multitech, multitech conduit, fathym, iot ensemble, microsoft azure, logi
 hide_table_of_contents: true
 ---
 
+June 26, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your MultiTech Conduit data flowing to the cloud, it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our MultiTech Conduit connected to Microsoft Azure.
 
 ![MultiTech Conduit Diagram](https://www.iot-ensemble.com/img/screenshots/MT_Conduit_Schematic_Diagram.png)

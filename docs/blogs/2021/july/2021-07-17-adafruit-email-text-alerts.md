@@ -8,6 +8,8 @@ tags: [adafruit, fathym, iot ensemble, microsoft azure, logic apps, devices, sen
 hide_table_of_contents: true
 ---
 
+July 17, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your Adafruit Device data flowing to the cloud, it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our Adafruit Device connected to Microsoft Azure.
 
 ![Adafruit Logo](https://www.iot-ensemble.com/img/screenshots/adafruit-hero.jpg)

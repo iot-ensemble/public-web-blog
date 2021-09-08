@@ -8,6 +8,8 @@ tags: [iot, reliable, brewing, raspberry pi, sensors, dashboards, alerts]
 hide_table_of_contents: true
 ---
 
+February 8, 2021 by Jeremy Tomlinson, _Director of Engineering @ Fathym_
+
 Brewing is a complicated process. It takes a high level of precision to deliver a consistent brew. And that's if everything goes according to plan. It gets more complicated when you lose power in the middle of the night. Or a piece of equipment fails.
 
 Fathym was contacted by a craft brewery in Denver, Colorado that needed help monitoring their boiler and glycol systems. They wanted an automated way to receive email/text alerts when problems arose with the equipment. Fathym accepted the challenge. *And we love beer.

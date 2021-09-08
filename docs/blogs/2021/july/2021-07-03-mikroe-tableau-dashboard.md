@@ -8,6 +8,8 @@ tags: [mikroe, mikroe click board, thermo 5 click, fathym, iot ensemble, tableau
 hide_table_of_contents: true
 ---
 
+July 3, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your Mikroe Click board data flowing to the cloud, it's time to create some Tableau Dashboards so that you can easily monitor everything. But first things first, let's get our Mikroe Click board connected to Microsoft Azure.
 
 ![Mikroe Logo](https://www.iot-ensemble.com/img/screenshots/Mikroe-blk-background-logo.png)

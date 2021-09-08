@@ -8,6 +8,8 @@ tags: [phoenix contact, plcnext, fathym, iot ensemble, plc controllers, microsof
 hide_table_of_contents: true
 ---
 
+June 16, 2021 by Jeremy Tomlinson, _Director of Engineering @ Fathym_
+
 Once you have your Phoenix Contact PLCnext Control data flowing to the cloud, it's time to create some Power BI reports so that you can easily monitor everything. But first things first, let's get our PLCnext Control connected to Microsoft Azure.
 
 ![Phoenix Contact PLCnext](https://www.iot-ensemble.com/img/screenshots/PLCnext_controllers.png)

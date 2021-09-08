@@ -9,6 +9,8 @@ tags: [iot, raspberry pi, node red, sensors, power bi]
 hide_table_of_contents: true
 ---
 
+January 24, 2021 by Michael Gearhardt, _CTO @ Fathym_
+
 ![IoT Ensemble Diagram](https://www.iot-ensemble.com/img/iot-ensemble-diagram.png)
 
 IoT is still way too hard. Whether you are connecting devices, configuring stream analytics jobs, IoT hubs, and cloud storage, or processing data to send downstream for visualization, application development or machine learning, one thing is certain: These processes are fraught with difficulty.

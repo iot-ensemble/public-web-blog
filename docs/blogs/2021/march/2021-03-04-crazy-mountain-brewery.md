@@ -8,6 +8,8 @@ tags: [crazy mountain brewery, iot, reliable, brewing, raspberry pi, sensors, da
 hide_table_of_contents: true
 ---
 
+March 4, 2021 by Jeremy Tomlinson, _Director of Engineering @ Fathym_
+
 Coloradans love beer. We hand out beers at the end of races instead of water. After a long day of biking or skiing we drink beer. Beer is a part of the live music scene, sporting events, festivals, and other social gatherings. With that many beer lovers, it makes sense that Colorado has the fourth most breweries per capita in the U.S. and that Colorado is home to more than 400 established breweries.
 
 One of the breweries in our back yard is Crazy Mountain Brewery. They started operations in the Vail Valley with a taproom in Edwards, CO and later opened another location in Denver, which became their production headquarters. Through a mutual contact we learned that the Director of Operations at Crazy Mountain was looking for off-site methods to monitor some of their brewing equipment.

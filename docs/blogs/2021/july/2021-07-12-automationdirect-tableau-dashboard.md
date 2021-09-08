@@ -8,6 +8,8 @@ tags: [automationdirect, automationdirect brx plc, fathym, iot ensemble, tableau
 hide_table_of_contents: true
 ---
 
+July 12, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your AutomationDirect BRX PLC data flowing to the cloud, it's time to create some Tableau Dashboards so that you can easily monitor everything. But first things first, let's get our AutomationDirect BRX PLC connected to Microsoft Azure.
 
 ![AutomationDirect Image](https://www.iot-ensemble.com/img/screenshots/AutomationDirect-SpaceLogo.jpg)

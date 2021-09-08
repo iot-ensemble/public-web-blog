@@ -8,6 +8,8 @@ tags: [iot, diy, gardening, weather station, temperature sensor, soil sensor, sp
 hide_table_of_contents: true
 --- 
 
+July 30, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
+
 _To plant a garden is to believe in tomorrow._
 
 Gardening is a wonderful lesson in patience, in appreciation for where food comes from and a learning opportunity every day. 

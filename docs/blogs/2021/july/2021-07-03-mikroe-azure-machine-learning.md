@@ -8,6 +8,8 @@ tags: [mikroe, mikroe click board, thermo 5 click, fathym, iot ensemble, microso
 hide_table_of_contents: true
 ---
 
+July 3, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your Mikroe Click board data flowing to the cloud, it's time to develop some fast and efficient algorithms and Machine Learning models for real-time processing of the data. Azure Machine Learning empowers us with a wide range of productive experiences for building, training, and deploying machine learning models faster. IoT Ensemble provides out of the box APIs that allow you to easily load your Mikroe data into Azure Machine Learning. But first things first, let's get our Mikroe Click boards connected to Microsoft Azure.
 
 ![Mikroe Logo](https://www.iot-ensemble.com/img/screenshots/Mikroe-blk-background-logo.png)

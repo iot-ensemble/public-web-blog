@@ -8,6 +8,8 @@ tags: [adafruit, fathym, iot ensemble, devices, sensors, grafana, dashboards]
 hide_table_of_contents: true
 ---
 
+July 17, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your Adafruit Device data flowing to the cloud, it's time to create some Grafana Dashboards so that you can easily monitor everything. But first things first, let's get our Adafruit Device connected to Microsoft Azure.
 
 ![Adafruit Logo](https://www.iot-ensemble.com/img/screenshots/adafruit-hero.jpg)

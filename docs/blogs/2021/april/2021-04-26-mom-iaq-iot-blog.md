@@ -8,6 +8,7 @@ tags: [iaq, tvoc, iot, SparkFun, environmental sensor, Arduino, ESP32]
 hide_table_of_contents: true
 ---
 
+April 26, 2021 by Kim Loomis, _Product Owner @ Fathym_
 
 _From the Mommiot files … a Mom who uses IoT to her every advantage._
 

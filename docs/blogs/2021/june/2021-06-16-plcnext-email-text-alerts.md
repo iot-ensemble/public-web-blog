@@ -8,6 +8,8 @@ tags: [phoenix contact, plcnext, fathym, iot ensemble, plc controllers, microsof
 hide_table_of_contents: true
 ---
 
+June 16, 2021 by Jeremy Tomlinson, _Director of Engineering @ Fathym_
+
 Once you have your Phoenix Contact PLCnext Control data flowing to the cloud, it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our PLCnext Control connected to Microsoft Azure.
 
 ![Phoenix Contact PLCnext](https://www.iot-ensemble.com/img/screenshots/PLCnext_controllers.png)

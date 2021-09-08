@@ -8,6 +8,8 @@ tags: [iot, plcs, manufacturing, plcnext, phoenix contact]
 hide_table_of_contents: true
 --- 
 
+July 23, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
+
 _Fireworks and fun. Grilling and chilling. Adventures and exploring the outdoors._
 
 Summer represents one of the best times of the year, not only because school’s out for summer, but for kids’ parents, too. And really, when you think about it, everything in the summer revolves around spending time with family and friends. 

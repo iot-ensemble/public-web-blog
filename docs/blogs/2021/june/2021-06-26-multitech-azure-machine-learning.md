@@ -8,6 +8,8 @@ tags: [multitech, multitech conduit, fathym, iot ensemble, microsoft azure, mach
 hide_table_of_contents: true
 ---
 
+June 26, 2021 by Matt Jackson, _Product Support Specialist @ Fathym_
+
 Once you have your MultiTech Conduit data flowing to the cloud, it's time to develop some fast and efficient algorithms and Machine Learning models for real-time processing of the data. Azure Machine Learning empowers us with a wide range of productive experiences for building, training, and deploying machine learning models faster. IoT Ensemble provides out of the box APIs that allow you to easily load your MultiTech data into Azure Machine Learning. But first things first, let's get our MultiTech Conduit connected to Microsoft Azure.
 
 ![MultiTech Conduit Diagram](https://www.iot-ensemble.com/img/screenshots/MT_Conduit_Schematic_Diagram.png)
