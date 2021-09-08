@@ -27,7 +27,7 @@ module.exports = {
       title: 'IoT Ensemble Beta',
       logo: {
         alt: 'IoT Ensemble',
-        src: 'img/Fathym-logo-white-01.png',
+        src: 'https://www.iot-ensemble.com/img/Fathym-logo-white-01.png',
       },
       items: [
         {
@@ -48,7 +48,7 @@ module.exports = {
         //   position: 'right',
         //   target: '_top',
         // },
-        
+                
         {
           href: 'https://www.iot-ensemble.com/docs',
           label: 'Docs',
@@ -128,7 +128,13 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        blog: {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
+          // The iot-ensemble website repo
+          // editUrl: 'https://github.com/iot-ensemble/public-web-docs/edit/master/website/',
+        },
+        /* blog: {
           showReadingTime: true,
           routeBasePath: '/',
           blogSidebarCount: 'ALL',
@@ -136,7 +142,7 @@ module.exports = {
           postsPerPage: 1,
           // The iot-ensemble website blog repo
           // editUrl: 'https://github.com/iot-ensemble/public-web-blog/edit/master/website/blog/',
-        },
+        }, */
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
