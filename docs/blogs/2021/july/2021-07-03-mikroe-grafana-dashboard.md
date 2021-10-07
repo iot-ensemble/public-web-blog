@@ -5,6 +5,17 @@ author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
 tags: [mikroe, mikroe click board, thermo 5 click, fathym, iot ensemble, devices, sensors, grafana, dashboards]
+keywords:
+    - Mikroe
+    - Mikroe Click Board
+    - Thermo 5 Click
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Device
+    - Sensor
+    - Grafana
+    - Dashboard
 hide_table_of_contents: true
 ---
 

@@ -5,6 +5,14 @@ author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
 tags: [advantech, fathym, iot ensemble, tableau, dashboard, devices, sensors]
+keywords:
+    - Advantech
+    - Fathym
+    - IoT Ensemble
+    - Tableau
+    - Dashboard
+    - Device
+    - Sensor
 hide_table_of_contents: true
 ---
 

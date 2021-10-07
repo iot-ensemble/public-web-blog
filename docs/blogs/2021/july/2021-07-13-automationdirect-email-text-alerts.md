@@ -5,6 +5,22 @@ author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
 tags: [automationdirect, automationdirect brx plc, fathym, iot ensemble, microsoft azure, logic apps, devices, sensors, dashboards, email, text, alerts, notifications]
+keywords:
+    - AutomationDirect
+    - AutomationDirect BRX PLC
+    - Programmable Logic Controller
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Microsoft Azure
+    - Logic Apps
+    - Device
+    - Sensor
+    - Dashboard
+    - Email
+    - Text
+    - Alert
+    - Notification
 hide_table_of_contents: true
 ---
 

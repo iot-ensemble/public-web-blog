@@ -1,10 +1,23 @@
 ---
-title: IoT for Restaurant Refrigeration
+title: IoT for Restaurant Refrigeration with Fathym IoT Ensemble
 author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url:  https://avatars.githubusercontent.com/u/48728918?v=4
 tags: [iot, restaurant, food loss, refrigeration, temperature sensor, Arduino, ESP32, TMP117]
+keywords:
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Restaurant
+    - Refrigeration
+    - Food Loss
+    - Temperature Sensor
+    - Sensor
+    - Device
+    - Arduino
+    - ESP32
+    - TMP117
 hide_table_of_contents: true
 ---
 

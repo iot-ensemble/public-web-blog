@@ -1,10 +1,21 @@
 ---
-title: IoT Ensemble for Brewing
+title: Fathym IoT Ensemble for Brewing
 author: Jeremy Tomlinson
 author_title: Director of Engineering @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/1234704?v=4
 tags: [iot, reliable, brewing, raspberry pi, sensors, dashboards, alerts]
+keywords:
+    - IoT Ensemble
+    - IoT
+    - Fathym
+    - Reliable
+    - Brewing
+    - Raspberry Pi
+    - Sensor
+    - Device
+    - Dashboard
+    - Alert
 hide_table_of_contents: true
 ---
 

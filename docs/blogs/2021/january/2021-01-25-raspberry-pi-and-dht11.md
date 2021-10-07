@@ -1,11 +1,21 @@
 ---
 slug: raspberry-pi-iot-ensemble-power-bi
-title: End-to-end IoT with IoT Ensemble
+title: End-to-end IoT with Fathym IoT Ensemble
 author: Michael Gearhardt
 author_title: CTO @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://github.com/mcgear.png
 tags: [iot, raspberry pi, node red, sensors, power bi]
+keywords:
+    - IoT
+    - Fathym
+    - IoT Ensemble
+    - Raspberry Pi
+    - Node-RED
+    - Sensor
+    - Device
+    - Power BI
+    - Report
 hide_table_of_contents: true
 ---
 
