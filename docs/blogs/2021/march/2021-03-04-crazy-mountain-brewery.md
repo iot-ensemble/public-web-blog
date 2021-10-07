@@ -1,10 +1,26 @@
 ---
-title: Crazy Mountain Brewery
+title: Crazy Mountain Brewery and Fathym IoT Ensemble
 author: Jeremy Tomlinson
 author_title: Director of Engineering @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/1234704?v=4
 tags: [crazy mountain brewery, iot, reliable, brewing, raspberry pi, sensors, dashboards, alerts]
+keywords:
+    - Crazy Mountain Brewery
+    - Brewing
+    - Beer
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Raspberry Pi
+    - Sensor
+    - Device
+    - Probe 
+    - Temperature Sensor
+    - Boiler Temperature
+    - Text
+    - Notification
+    - Dashboard
 hide_table_of_contents: true
 ---
 

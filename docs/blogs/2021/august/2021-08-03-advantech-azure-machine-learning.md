@@ -5,6 +5,15 @@ author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
 tags: [advantech, fathym, iot ensemble, microsoft azure, machine learning, devices, sensors, models]
+keywords:
+    - Advantech
+    - Fathym
+    - IoT Ensemble
+    - Microsoft Azure
+    - Machine Learning
+    - Device
+    - Sensor
+    - Model
 hide_table_of_contents: true
 ---
 

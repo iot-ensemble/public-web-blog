@@ -1,10 +1,19 @@
 ---
-title: Phoenix Contact and Fathym Make PLCs Easy
+title: Phoenix Contact and Fathym IoT Ensemble Make PLCs Easy
 author: Rich Kurtzman
 author_title: Content Creator/Writer @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGEzQzrR9oF7g/profile-displayphoto-shrink_100_100/0/1516568821506?e=1631145600&v=beta&t=UbUTLFlBOv3frvSDHoy1ctdriXvsGDGLt9MHjq8VXCo
 tags: [iot, plcs, manufacturing, plcnext, phoenix contact]
+keywords:
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Phoenix Contact
+    - PLC
+    - Programmable Logic Controller
+    - PLCNext
+    - Manufacturing
 hide_table_of_contents: true
 --- 
 

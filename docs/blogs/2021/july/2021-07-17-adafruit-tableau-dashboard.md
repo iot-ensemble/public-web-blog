@@ -5,6 +5,19 @@ author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
 tags: [adafruit, fathym, iot ensemble, tableau, dashboard, devices, sensors]
+keywords:
+    - Adafruit
+    - Adafruit Feather M0 WiFi
+    - Azure IoT Hub
+    - Arduino
+    - BME280
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Microsoft Azure
+    - Tableau
+    - Device
+    - Sensor
 hide_table_of_contents: true
 ---
 

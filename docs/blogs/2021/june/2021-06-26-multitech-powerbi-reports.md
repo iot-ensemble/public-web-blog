@@ -5,6 +5,18 @@ author_title: Product Support Specialist @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/55766355?v=4
 tags: [multitech, multitech conduit, fathym, iot ensemble, microsoft azure, power bi, devices, sensors, dashboards, reports]
+keywords:
+    - MultiTech
+    - MultiTech Conduit
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Microsoft Azure
+    - Power BI
+    - Device
+    - Sensor
+    - Dashboard
+    - Report
 hide_table_of_contents: true
 ---
 

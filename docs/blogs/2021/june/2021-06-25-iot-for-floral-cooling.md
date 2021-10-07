@@ -1,10 +1,23 @@
 ---
-title: IoT for Floral Cooling
+title: IoT for Floral Cooling with Fathym IoT Ensemble
 author: Kim Loomis
 author_title: Product Owner @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url:  https://avatars.githubusercontent.com/u/48728918?v=4
 tags: [iot, floral, flowers, refrigeration, cooling, temperature sensor, Arduino, ESP32, TMP117]
+keywords:
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Floral
+    - Cooling
+    - Refrigeration
+    - Temperature Sensor
+    - Device
+    - Sensor
+    - Arduino
+    - ESP32
+    - TMP117
 hide_table_of_contents: true
 ---
 

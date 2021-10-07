@@ -5,6 +5,23 @@ author_title: Director of Engineering @ Fathym
 author_url: https://www.iot-ensemble.com
 author_image_url: https://avatars.githubusercontent.com/u/1234704?v=4
 tags: [phoenix contact, plcnext, fathym, iot ensemble, plc controllers, microsoft azure, logic apps, devices, sensors, dashboards, email, text, alerts, notifications]
+keywords:
+    - Phoenix Contact
+    - PLCNext
+    - PLC
+    - Programmable Logic Controller
+    - Fathym
+    - IoT
+    - IoT Ensemble
+    - Microsoft Azure
+    - Logic Apps
+    - Device
+    - Sensor
+    - Dashboard
+    - Email
+    - Text
+    - Alert
+    - Notification
 hide_table_of_contents: true
 ---
 
