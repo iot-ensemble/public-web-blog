@@ -1,4 +1,5 @@
 ---
+slug: /
 title: Fathym IoT Ensemble Sets Your Data Free
 author: Kim Loomis
 author_title: Product Owner @ Fathym
