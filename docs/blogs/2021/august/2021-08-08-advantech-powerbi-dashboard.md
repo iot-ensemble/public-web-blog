@@ -1,5 +1,4 @@
 ---
-slug: /
 title: Advantech Power BI Reports
 author: Matt Jackson
 author_title: Product Support Specialist @ Fathym
