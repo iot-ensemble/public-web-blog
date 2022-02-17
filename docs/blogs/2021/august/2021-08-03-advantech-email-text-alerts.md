@@ -25,7 +25,7 @@ hide_table_of_contents: true
 
 Once you have your Advantech Edge Intelligent RTU data flowing to the cloud, it's time to setup alerts and notifications so that you can easily monitor everything. I prefer using Microsoft Logic Apps for sending email and text alerts when temperatures rise above a specified threshold. But first things first, let's get our Advantech RTU connected to Microsoft Azure.
 
-![Advantech Logo](https://www.fathym.com/img/screenshots/advantech-bubble-diagram.jpg)
+![Advantech Logo](https://www.fathym.com/iot/img/screenshots/advantech-bubble-diagram.jpg)
 
 Advantech has a video **[here](https://www.youtube.com/watch?v=HEhvcU36Z8o)** that shows how to connect your Advantech RTU to an Azure IoT Hub. It's a great video and very informative. However, instead of going through all of the tedious steps outlined in the video of setting up an Azure IoT Hub. I prefer to use Fathym's **[IoT Ensemble](https://www.fathym.com/iot)**. With one click I can register my Advantech device and immediately get access to the data for downstream use in alerts, dashboards, and visualizations. Behind the scenes we've already created an Azure resource group, storage containers, the storage endpoints, and everything else to help manage your data. After I enroll my device in IoT Ensemble, it displays the IoT Hub connectionstring. I take the connectionstring into Advantech TagLink Studio to use as my Azure Key and I'm ready to rock. Here's a screenshot of my connected Advantech RTU.
 
