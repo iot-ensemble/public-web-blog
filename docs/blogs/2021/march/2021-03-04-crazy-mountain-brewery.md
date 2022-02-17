@@ -2,7 +2,7 @@
 title: Crazy Mountain Brewery and Fathym IoT Ensemble
 author: Jeremy Tomlinson
 author_title: Director of Engineering @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://avatars.githubusercontent.com/u/1234704?v=4
 tags: [crazy mountain brewery, iot, reliable, brewing, raspberry pi, sensors, dashboards, alerts]
 keywords:
@@ -24,7 +24,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-March 4, 2021 by Jeremy Tomlinson, _Director of Engineering @ Fathym_
+> March 4, 2021 by Jeremy Tomlinson, _Director of Engineering @ Fathym_
 
 Coloradans love beer. We hand out beers at the end of races instead of water. After a long day of biking or skiing we drink beer. Beer is a part of the live music scene, sporting events, festivals, and other social gatherings. With that many beer lovers, it makes sense that Colorado has the fourth most breweries per capita in the U.S. and that Colorado is home to more than 400 established breweries.
 
@@ -32,15 +32,15 @@ One of the breweries in our back yard is Crazy Mountain Brewery. They started op
 
 Crazy Mountain knows that complete temperature control is essential during the brewing process. They wanted to be notified via text when the boiler temp dropped below 150 degrees or when the glycol temp was greater than 41.
 
-![Crazy Mountain Brewery](https://www.iot-ensemble.com/img/screenshots/cmb-tanks.jpg)
+![Crazy Mountain Brewery](https://www.fathym.com/iot/img/screenshots/cmb-tanks.jpg)
 
-For this project, Crazy Mountain used a Raspberry Pi connected to a Temperature Sensor to monitor the brewery's boiler tank and a Waterproof Temperature Probe to monitor the glycol tank. The Raspberry Pi was connected to [IoT Ensemble](https://www.iot-ensemble.com) and the data was streamed to a dashboard where the alerts were setup. The alerts had the potential to make a real difference. Within a couple of weeks all of the hard work paid off when the brewery lost power.
+For this project, Crazy Mountain used a Raspberry Pi connected to a Temperature Sensor to monitor the brewery's boiler tank and a Waterproof Temperature Probe to monitor the glycol tank. The Raspberry Pi was connected to [IoT Ensemble](https://www.fathym.com/iot) and the data was streamed to a dashboard where the alerts were setup. The alerts had the potential to make a real difference. Within a couple of weeks all of the hard work paid off when the brewery lost power.
 
 > "You saved us a whole day of brewing! If we didn’t have the alert and we didn’t come in to check Sunday or Monday, we would have walked in to cold water today. And it takes so long to heat up that we wouldn’t have been able to brew at all today, which messes up the whole week!"
 > Director of Operations at Crazy Mountain Brewery, Denver, Colorado
 
-The mission was a success. You can do the same for your brewery. [This blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi) takes you step by step through configuring a Raspberry Pi/Temperature sensor from scratch, connecting it to IoT Ensemble, and then streaming the data to a dashboard. If you have any questions along the way, drop us a line at support@fathym.com and we'll be happy to help.
+The mission was a success. You can do the same for your brewery. [This blog](https://www.fathym.com/iot/blog/raspberry-pi-dht11-node-red-fathym-power-bi) takes you step by step through configuring a Raspberry Pi/Temperature sensor from scratch, connecting it to IoT Ensemble, and then streaming the data to a dashboard. If you have any questions along the way, drop us a line at support@fathym.com and we'll be happy to help.
 
-[Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your brewery thousands of dollars in time and lost product. Enroll your first device for free. No credit card required.
+[Sign up](https://www.fathym.com/dashboard/iot) for IoT Ensemble and save your brewery thousands of dollars in time and lost product. Enroll your first device for free. No credit card required.
 
-![Fathym and CMB](https://www.iot-ensemble.com/img/screenshots/crazy-mountain-brewery.jpg)
+![Fathym and CMB](https://www.fathym.com/iot/img/screenshots/crazy-mountain-brewery.jpg)

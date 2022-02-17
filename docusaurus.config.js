@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   title: 'Fathym IoT Ensemble Beta',
   tagline: 'Experience IoT in minutes | No credit card required',
-  url: 'https://www.iot-ensemble.com',
+  url: 'https://www.fathym.com/iot',
   baseUrl: '/iot/blog/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -27,11 +27,11 @@ module.exports = {
       title: 'IoT Ensemble Beta',
       logo: {
         alt: 'IoT Ensemble',
-        src: 'https://www.iot-ensemble.com/img/Fathym-logo-white-01.png',
+        src: 'https://www.fathym.com/img/Fathym-logo-white-01.png',
       },
       items: [
         {
-          href: 'https://www.iot-ensemble.com/',
+          href: 'https://www.fathym.com/iot',
           label: 'Home',
           position: 'left',
           target: '_top',
@@ -50,7 +50,7 @@ module.exports = {
         // },
                 
         {
-          href: 'https://www.iot-ensemble.com/docs',
+          href: 'https://www.fathym.com/iot/docs',
           label: 'Docs',
           position: 'right',
           target: '_top',
@@ -61,13 +61,13 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.iot-ensemble.com/dashboard',
+          href: 'https://www.fathym.com/dashboard/iot',
           label: 'Sign In',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/dashboard',
+          href: 'https://www.fathym.com/dashboard/iot',
           label: 'Sign Up',
           position: 'right',
           target: '_top',
@@ -82,15 +82,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.iot-ensemble.com/dashboard',
-            },
-            {
-              label: 'Pricing',
-              to: 'https://www.iot-ensemble.com/pricing',
+              to: 'https://www.fathym.com/dashboard/iot',
             },
             {
               label: 'Support',
-              to: 'https://www.iot-ensemble.com/docs/introduction/support',
+              to: 'https://www.fathym.com/iot/docs/introduction/support',
             },
           ],
         },

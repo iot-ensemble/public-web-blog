@@ -2,7 +2,7 @@
 title: Fathym IoT Ensemble for Brewing
 author: Jeremy Tomlinson
 author_title: Director of Engineering @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://avatars.githubusercontent.com/u/1234704?v=4
 tags: [iot, reliable, brewing, raspberry pi, sensors, dashboards, alerts]
 keywords:
@@ -19,13 +19,13 @@ keywords:
 hide_table_of_contents: true
 ---
 
-February 8, 2021 by Jeremy Tomlinson, _Director of Engineering @ Fathym_
+> February 8, 2021 by Jeremy Tomlinson, _Director of Engineering @ Fathym_
 
 Brewing is a complicated process. It takes a high level of precision to deliver a consistent brew. And that's if everything goes according to plan. It gets more complicated when you lose power in the middle of the night. Or a piece of equipment fails.
 
 Fathym was contacted by a craft brewery in Denver, Colorado that needed help monitoring their boiler and glycol systems. They wanted an automated way to receive email/text alerts when problems arose with the equipment. Fathym accepted the challenge. *And we love beer.
 
-![Brewing Solution](https://www.iot-ensemble.com/img/screenshots/brewery-iot4.png)
+![Brewing Solution](https://www.fathym.com/iot/img/screenshots/brewery-iot4.png)
 
 ## The Hard Way
 
@@ -42,8 +42,8 @@ Any good brewer knows that complete temperature control is essential during the 
 
 Fathym built IoT Ensemble to empower small and independent brewers, home brewers, and others to setup the same monitoring as described above for their equipment - but this time without needing a few senior engineers to be Azure experts. IoT Ensemble acts as your Virtual App Developer and manages the Azure complexity for you. Let's be clear, with IoT Ensemble you still need to setup your device, dashboards, and alerts - but IoT Ensemble handles all of the heavy lifting in Azure. And trust me, the heavy lifting in Azure is no joke. The good news is that setting up your device, dashboards, and alerts is a manageable lift. If you have a staff member that loves technology they can set this up. Otherwise, find your nearest teenager to help.
 
-This blog [Connecting Raspberry Pi/DHT11, Node Red, and Power BI with IoT Ensemble](https://www.iot-ensemble.com/blog/raspberry-pi-iot-ensemble-power-bi) takes you step by step through configuring a Raspberry Pi/Temperature sensor from scratch, connecting it to IoT Ensemble, and then streaming the data to a Power BI report. (It's easier than it sounds.)
+This blog [Connecting Raspberry Pi/DHT11, Node Red, and Power BI with IoT Ensemble](https://www.fathym.com/iot/blog/raspberry-pi-fathym-power-bi) takes you step by step through configuring a Raspberry Pi/Temperature sensor from scratch, connecting it to IoT Ensemble, and then streaming the data to a Power BI report. (It's easier than it sounds.)
 
-[Sign up](https://www.iot-ensemble.com/dashboard) for IoT Ensemble and save your brewery thousands of dollars in time and lost product. Enroll your first device for free. No credit card required.
+[Sign up](https://www.fathym.com/dashboard/iot) for IoT Ensemble and save your brewery thousands of dollars in time and lost product. Enroll your first device for free. No credit card required.
 
-![Brewing Results](https://www.iot-ensemble.com/img/screenshots/iot-ensemble-connected-devices.png)
+![Brewing Results](https://www.fathym.com/iot/img/screenshots/fathym-connected-devices.png)
