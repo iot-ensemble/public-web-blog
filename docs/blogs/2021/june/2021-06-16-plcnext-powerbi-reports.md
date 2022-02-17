@@ -40,7 +40,7 @@ Behind the scenes in IoT Ensemble the PLCnext data is stored in Microsoft Azure 
 
 Fathym's IoT Ensemble is providing an easy-to-use UI for interacting with the data instead of using the Azure portal - and it saves me a ton of time and money.
 
-![Fathym IoT Ensemble](https://www.fathym.com/iot/img/screenshots/fathym-connected-devices.png)
+![Fathym IoT Ensemble](https://www.fathym.com/iot/img/screenshots/iot-ensemble-connected-devices.png)
 
 ## PLCnext Power BI Reports
 
