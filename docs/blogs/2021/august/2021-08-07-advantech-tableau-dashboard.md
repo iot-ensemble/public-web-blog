@@ -45,7 +45,7 @@ Now that my Advantech data is flowing to IoT Ensemble, it's time to create some 
 **[Sign up](https://www.fathym.com/dashboard/iot)** for IoT Ensemble and save your company thousands of dollars in Azure setup and management costs. Enroll your first Advantech RTU with IoT Ensemble for free. No credit card required. No Azure account required. It really is that simple.
 
 :::info
-**[Enroll your first Advantech RTU](https://www.fathym.com/dashboard)** with IoT Ensemble for free.
+**[Enroll your first Advantech RTU](https://www.fathym.com/dashboard/iot)** with IoT Ensemble for free.
 No credit card required.
 No Azure account required.
 :::

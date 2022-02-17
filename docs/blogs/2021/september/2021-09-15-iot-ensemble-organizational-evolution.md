@@ -39,7 +39,7 @@ Organizations also evolve in order to survive. Those that evolve the most succes
 
 When an organization undertakes a strategy of increasing the range of products and services they offer, one tactic to take is to employ SaaS (software as a service). SaaS makes sense for businesses large and small. It provides businesses with access to sophisticated, high-performance software that they may otherwise be unable to purchase due their limited IT budget. It's much more economical and it’s almost like having an entire expert team dedicated to a function that would never be as effective in-house.
 
-![IoT Ensemble Hosting Plans](https://www.fathym.com/iot/static/images/isometric-fathym-lcu-whitelabel-white.png)
+![IoT Ensemble Hosting Plans](https://www.fathym.com/iot/static/images/isometric-iot-ensemble-lcu-whitelabel-white.png)
 
 For organizations of any size wanting to get IoT devices streaming data to the cloud and use that data, IoT Ensemble is the answer. It gives the organizations true flexibility when it comes to hosting.
 

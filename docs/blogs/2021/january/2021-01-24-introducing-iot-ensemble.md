@@ -20,7 +20,7 @@ hide_table_of_contents: true
 
 > January 24, 2021 by Michael Gearhardt, _CTO @ Fathym_
 
-![IoT Ensemble Diagram](https://www.fathym.com/iot/img/fathym-diagram.png)
+![IoT Ensemble Diagram](https://www.fathym.com/iot/img/iot-ensemble-diagram.png)
 
 IoT is still way too hard. Whether you are connecting devices, configuring stream analytics jobs, IoT hubs, and cloud storage, or processing data to send downstream for visualization, application development or machine learning, one thing is certain: These processes are fraught with difficulty.
 
