@@ -2,7 +2,7 @@
 title: Phoenix Contact and Fathym IoT Ensemble Make PLCs Easy
 author: Rich Kurtzman
 author_title: Content Creator/Writer @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGEzQzrR9oF7g/profile-displayphoto-shrink_100_100/0/1516568821506?e=1631145600&v=beta&t=UbUTLFlBOv3frvSDHoy1ctdriXvsGDGLt9MHjq8VXCo
 tags: [iot, plcs, manufacturing, plcnext, phoenix contact]
 keywords:
@@ -17,7 +17,7 @@ keywords:
 hide_table_of_contents: true
 --- 
 
-July 23, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
+> July 23, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
 
 _Fireworks and fun. Grilling and chilling. Adventures and exploring the outdoors._
 
@@ -27,7 +27,7 @@ That could mean a camping trip, or having distant relatives come to the beautifu
 
 What if, instead of leaving the Bar-B-Que because of a shut-down at work, you were able to check in on the manufacturing line as easily as you check the weather on your smartphone before embarking on a camping trip? 
 
-![Checking manufacturing line](https://www.iot-ensemble.com/img/screenshots/woman_checking_phone_bbq.jpg)
+![Checking manufacturing line](https://www.fathym.com/iot/img/screenshots/woman_checking_phone_bbq.jpg)
 
 That’s where Phoenix Contact and Fathym come to the rescue. 
 
@@ -39,11 +39,11 @@ They were -- and continue to be -- incredibly expensive. As PLCs have evolved in
 
 Enter, Phoenix Contact. The nearly 100-year old company isn’t stuck in the past, they’re continuously progressing and currently make phenomenally pleasing PLCs and at a fraction of the cost. These are not just some rinky-dink PLCs either, but sturdy, strong and smart controllers at 1/10th the price of major competitors. 
 
-![Phoenix Contact PLCnext](https://www.iot-ensemble.com/img/screenshots/PLCnext_controllers.png)
+![Phoenix Contact PLCnext](https://www.fathym.com/iot/img/screenshots/PLCnext_controllers.png)
 
 And, after the price point, the next-best function of Phoenix Contact’s PLCs is the ability to program them more easily with the help of PLCNext and Fathym’s IoT Ensemble. Historically, users have been locked into whatever programming the producer of the PLC wanted to use. That meant headaches on the back end and less effectiveness on the manufacturing floor. 
 
-No more. With **[IoT Ensemble](https://www.iot-ensemble.com)** from Fathym, the users are the focus. If you’re an IoT cloud architect, Ensemble can take configuring cloud services off of your plate. Or, if you’re the hands-on type -- the guy that uses a charcoal grill -- we’re talking an embedded device engineer, IoT Ensemble will help you get your prototype up and running. 
+No more. With **[IoT Ensemble](https://www.fathym.com/iot)** from Fathym, the users are the focus. If you’re an IoT cloud architect, Ensemble can take configuring cloud services off of your plate. Or, if you’re the hands-on type -- the guy that uses a charcoal grill -- we’re talking an embedded device engineer, IoT Ensemble will help you get your prototype up and running. 
 
 Hey, it’s powerful cloud management, able to store, process and then retrieve information for a wide range of people, hobbyists and their Raspberry Pi, as well. 
 With Phoenix Contact’s PLCNext, there’s even integration with cell phones, tablets or PCs. That means an ability to check in on the progress at work from another, remote building than what used to have to happen back in the day. In those days, either the PLCs had to be controlled from that building, or tons of wires were buried in the ground and pipelined over to another, likely neighboring, facility. 

@@ -2,7 +2,7 @@
 title: Quarterbacking the Evolution of PLCs & IoT
 author: Rich Kurtzman
 author_title: Content Creator/Writer @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGEzQzrR9oF7g/profile-displayphoto-shrink_100_100/0/1516568821506?e=1631145600&v=beta&t=UbUTLFlBOv3frvSDHoy1ctdriXvsGDGLt9MHjq8VXCo
 tags: [iot, plcs, manufacturing, plcnext, phoenix contact]
 keywords:
@@ -17,7 +17,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-July 9, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
+> July 9, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
 
 _It's 4th-and-goal with the game on the line._
 
@@ -25,7 +25,7 @@ You, the manufacturer, have a deadline to meet and time is running out. Either y
 
 That’s where PLCs (Programmable Logic Controllers) come through in the clutch. 
 
-![Programmable Logic Controller](https://www.iot-ensemble.com/img/screenshots/rkurtz1_generic_plc.png)
+![Programmable Logic Controller](https://www.fathym.com/iot/img/screenshots/rkurtz1_generic_plc.png)
  
 PLCs can watch over the automation process, limiting the number of people needed on the line at one time, while making everything easier for you, the “coach.” 
 
@@ -42,7 +42,7 @@ Think easier to use, smarter, simpler and yes: Better than ever.
 
 Imagine checking in on your manufacturing process from your cell phone just as easily as you check scores on your favorite team. And this isn’t gimmicky hardware either, but robust enough to handle PLC needs large and small. 
 
-![Checking Status](https://www.iot-ensemble.com/img/screenshots/rkurtz1_businessman_phone.png)
+![Checking Status](https://www.fathym.com/iot/img/screenshots/rkurtz1_businessman_phone.png)
  
 For years, only a handful of companies have been able to offer PLCs to manufacturers, and that allowed them to charge those outrageous prices. Now, the smaller guys are getting involved and making noise, disrupting that business model and changing it completely. 
 
@@ -50,9 +50,9 @@ We’re not talking a small savings, _but PLCs which are a fraction (1/10th) the
 
 But, as the technology in the controllers becomes less expensive, we’re now seeing those giant PLC companies locking in clients with their overly expensive, closed software systems. Again, there’s a better option. 
 
-Now, not only can companies seek out less expensive and yet powerful PLCs, they can also choose to operate in an open ecosystem when it comes to the software side of things. While the giants of this space have traditionally controlled the software and held companies for ransom like a hostage crisis, **[Fathym](https://www.iot-ensemble.com)** and our partners are here to break clients free. 
+Now, not only can companies seek out less expensive and yet powerful PLCs, they can also choose to operate in an open ecosystem when it comes to the software side of things. While the giants of this space have traditionally controlled the software and held companies for ransom like a hostage crisis, **[Fathym](https://www.fathym.com)** and our partners are here to break clients free. 
 
-![Fathym](https://www.iot-ensemble.com/img/screenshots/rkurtz1_fathym_input_output.png)
+![Fathym](https://www.fathym.com/iot/img/screenshots/rkurtz1_fathym_input_output.png)
  
 We’re talking expansion and customization as unique as a coach’s playbook, and an ability to adapt on the fly to ever-changing conditions. 
 
@@ -60,6 +60,6 @@ We’re talking expansion and customization as unique as a coach’s playbook, a
 Want to know more about this newer, easier, smaller company with a more approachable price point? We’ll be introducing you to PLCnext and Phoenix Contact in our next blog.
 :::
 
-![Phoenix Contact](https://www.iot-ensemble.com/img/screenshots/PLCnext_controllers.png)
+![Phoenix Contact](https://www.fathym.com/iot/img/screenshots/PLCnext_controllers.png)
  
 Just like the game of football – evolving with the forward pass 100 years ago, and into the exciting, entertaining empire of today – the world of PLCs is evolving right before our eyes. 

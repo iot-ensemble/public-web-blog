@@ -3,7 +3,7 @@ slug: /
 title: Fathym IoT Ensemble Sets Your Data Free
 author: Kim Loomis
 author_title: Product Owner @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://avatars.githubusercontent.com/u/48728918?v=4
 tags: [iot, virtual developers, azure, micro-frontends, deployment, applications]
 keywords:
@@ -21,7 +21,7 @@ keywords:
 hide_table_of_contents: true
 --- 
 
-September 30, 2021 by Kim Loomis, _Product Owner @ Fathym_
+> September 30, 2021 by Kim Loomis, _Product Owner @ Fathym_
 
 :::note We're Listening
 
@@ -39,13 +39,13 @@ But there’s an inherent problem with data. In a lot (a lot!) of instances data
 
 The system might tout itself as a one-stop shop for the business. That is super attractive – one entity that can enable the business in all ways. But it’s tough to be an expert in all aspects of business. In truth, the data is locked away and its power is never realized. The system doesn’t get the business to their desired station at all or it gets them partway down the tracks. Numbers have to be crunched outside of the system. C-level decisions take weeks or months to be made. Sales and marketing look at different information or information differently and never get aligned. Customers start looking elsewhere when the business doesn’t meet their needs and smaller, more nimble companies start chomping away at the business.
 
-![Downstream Experts](https://www.iot-ensemble.com/static/images/isometric-iot-ensemble-outputs-white.png)
+![Downstream Experts](https://www.fathym.com/iot/static/images/isometric-iot-ensemble-outputs-white.png)
 
 IoT Ensemble is not a one-stop shop. Instead, it’s a virtual developer that’s an expert at what it does - helping you connect devices, understand data and scale IoT applications. It thrives on getting data from your sensors to the cloud. It lets you easily view raw device message payloads, ensure data is streaming and confirm it’s the expected data. Finally, it makes the data accessible for downstream connections.
 
 And that’s where IoT Ensemble differs from many other IoT solutions. It doesn’t seek to be the end-all, be-all, by interpreting and analyzing the data. Instead, IoT Ensemble is your facilitator on your journey to realizing that ultra-valuable information. With IoT Ensemble’s Storage Access APIs, you have rapid access to IoT data, in a number of different formats, ready to be used with other expert systems.
 
-![Partners](https://www.iot-ensemble.com/static/images/partners-curved.png)
+![Partners](https://www.fathym.com/iot/static/images/partners-curved.png)
 
 ✅ Do you want awesome **dashboards**? Take the data into Grafana.
 
@@ -63,4 +63,4 @@ And that’s where IoT Ensemble differs from many other IoT solutions. It doesn�
 
 ✅ Do you want impressive **visualizations**? Take the data into D3.js.
 
-This list goes on. The point is your data is free with **[IoT Ensemble](https://www.iot-ensemble.com)** and ready to go wherever you need it to become the valuable information your business needs.
+This list goes on. The point is your data is free with **[IoT Ensemble](https://www.fathym.com/iot)** and ready to go wherever you need it to become the valuable information your business needs.

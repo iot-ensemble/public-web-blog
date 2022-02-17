@@ -2,7 +2,7 @@
 title: Fathym Virtual Developers
 author: Kim Loomis
 author_title: Product Owner @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://avatars.githubusercontent.com/u/48728918?v=4
 tags: [iot, virtual developers, azure, micro-frontends, deployment, applications]
 keywords:
@@ -15,7 +15,7 @@ keywords:
 hide_table_of_contents: true
 --- 
 
-July 21, 2021 by Kim Loomis, _Product Owner @ Fathym_
+> July 21, 2021 by Kim Loomis, _Product Owner @ Fathym_
 
 :::note We're Listening
 
@@ -35,7 +35,7 @@ These developers encompass weeks, months or years of understanding and knowledge
 
 They cost a fraction of what a human developer would cost to hire, manage and retain.
 
-![SaaS](https://www.iot-ensemble.com/img/saas_1000pixelwide.png)
+![SaaS](https://www.fathym.com/iot/img/saas_1000pixelwide.png)
 
 They do not have a learning curve — they are already subject matter experts. They are out-of-the-box ready to go.
 
@@ -47,10 +47,10 @@ They do a lot of the work that developers do not want to do, but have to do in o
 
 The human developers are a lot happier when they are focused on the work they want to do. They are more efficient and effective in their work. They feel more invested in their organization’s goals and are more compelled to work. Virtual developers let them do just that.
 
-![Virtual Developers](https://www.iot-ensemble.com/img/saas_lightbulb_1000pixelwide.png)
+![Virtual Developers](https://www.fathym.com/iot/img/saas_lightbulb_1000pixelwide.png)
 
 Virtual developers free up your other valuable resources to do the exploratory work, the investigative work, the work that expands and grows your organization.
 
 As a result, this is the work that expands your product offering, reduces your development cycles, gets you in more markets, gets you more profit, higher margins, better return, more dividends, and bigger investments.
 
-Fathym’s Virtual Developers are ready to go to work for you.  Try **[IoT Ensemble](https://www.iot-ensemble.com)** today - it makes IoT easy!
+Fathym’s Virtual Developers are ready to go to work for you.  Try **[IoT Ensemble](https://www.fathym.com/iot)** today - it makes IoT easy!

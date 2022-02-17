@@ -1,9 +1,8 @@
 ---
-slug: introducing-iot-ensemble
 title: Introducing Fathym IoT Ensemble - Your Virtual IoT Developer
 author: Michael Gearhardt
 author_title: CTO @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://github.com/mcgear.png
 tags: [iot, raspberry pi, node red, sensors, power bi]
 keywords:
@@ -19,13 +18,13 @@ keywords:
 hide_table_of_contents: true
 ---
 
-January 24, 2021 by Michael Gearhardt, _CTO @ Fathym_
+> January 24, 2021 by Michael Gearhardt, _CTO @ Fathym_
 
-![IoT Ensemble Diagram](https://www.iot-ensemble.com/img/iot-ensemble-diagram.png)
+![IoT Ensemble Diagram](https://www.fathym.com/iot/img/iot-ensemble-diagram.png)
 
 IoT is still way too hard. Whether you are connecting devices, configuring stream analytics jobs, IoT hubs, and cloud storage, or processing data to send downstream for visualization, application development or machine learning, one thing is certain: These processes are fraught with difficulty.
 
-There has to be a better way for getting started with an IoT project that does not require weeks or even months of configuration.<!--truncate--> That is why today we are launching [Fathym IoT Ensemble](https://www.iot-ensemble.com), a simple but powerful platform that provides the cloud-native infrastructure for your IoT project out of the box. IoT Ensemble operates as your virtual IoT development team. The platform radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.
+There has to be a better way for getting started with an IoT project that does not require weeks or even months of configuration.<!--truncate--> That is why today we are launching [Fathym IoT Ensemble](https://www.fathym.com/iot), a simple but powerful platform that provides the cloud-native infrastructure for your IoT project out of the box. IoT Ensemble operates as your virtual IoT development team. The platform radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.
 
 ## Best Practice IoT Cloud Infrastructure, Out of the Box
 
@@ -35,7 +34,7 @@ IoT Ensemble eliminates this pain by providing the best practice IoT cloud infra
 
 IoT Ensemble leverages Microsoft Azure to provide a shared cloud environment. You do not need any knowledge of Azure or even an Azure account to get started. Let us handle the heavy lifting of automating and managing your best practice cloud environment while you focus on visualizing data or application delivery.
 
-![Dashboard New](https://www.iot-ensemble.com/img/screenshots/dashboard-new.png)
+![Dashboard New](https://www.fathym.com/iot/img/screenshots/dashboard-new.png)
 
 ### Simply Connect your Device and View your Data
 
@@ -43,19 +42,19 @@ IoT Ensemble is focused on helping you to connect devices, understand data, and 
 
 When you sign up for your free account of IoT Ensemble, you can enable emulated device data to see it immediately flowing through your dashboard. To connect a physical device, simply enroll a unique device name. You will be provided with a connection string and SAS token, along with detailed documentation, to connect your device.
 
-![Emulated Device Telemetry](https://www.iot-ensemble.com/img/screenshots/dashboard-emulated-telemetry.png)
+![Emulated Device Telemetry](https://www.fathym.com/iot/img/screenshots/dashboard-emulated-telemetry.png)
 
 IoT Ensemble provides a Devices Telemetry table that displays payload messages of your emulated and connected device data. You can easily view and copy payload schema and send sample device messages into the system. We provide a best practice schema that we recommend for sending IoT messages. This allows for the collection of device data, sensor readings and sensor metadata to deliver a rich, pre-configured IoT experience.
 
-![Dashboard Devices Telemetry Table Payload](https://www.iot-ensemble.com/img/screenshots/dashboard-devices-telemetry-table-payload.png)
+![Dashboard Devices Telemetry Table Payload](https://www.fathym.com/iot/img/screenshots/dashboard-devices-telemetry-table-payload.png)
 
 IoT Ensemble also provides the open-source dashboard Freeboard as an out of the box example of how to visualize your data. You can use this tool to create and locally save custom visualizations and later load them into view.
 
-![Devices Freeboard](https://www.iot-ensemble.com/img/screenshots/dashboard-devices-freeboard.png)
+![Devices Freeboard](https://www.fathym.com/iot/img/screenshots/dashboard-devices-freeboard.png)
 
 The main goal of any IoT Solution is to collect device data and successfully bring it into your preferred tools for visualization, application development, AI, machine learning, and more. IoT Ensemble provides APIs for storing and sending data downstream to other services, such as Power BI or Azure Machine Learning.
 
-![Storage Access](https://www.iot-ensemble.com/img/screenshots/dashboard-storage-access.png)
+![Storage Access](https://www.fathym.com/iot/img/screenshots/dashboard-storage-access.png)
 
 ## Scale as you Grow
 
@@ -69,4 +68,4 @@ We also offer a customizable enterprise tier. We can automate a best practice Io
 
 If you are an IoT cloud architect who needs to get a project started quickly instead of spending hours configuring cloud services, try IoT Ensemble. If you are an embedded device engineer who needs to get a prototype working and sending data downstream without soliciting the services of a cloud engineer, try IoT Ensemble. If you are a hobbyist that wants to view and make use of the data your Raspberry Pi is collecting, try IoT Ensemble.
 
-IoT does not have to be so difficult and frustrating. Accelerate your usage and adoption of IoT technologies and [try IoT Ensemble](https://www.iot-ensemble.com).
+IoT does not have to be so difficult and frustrating. Accelerate your usage and adoption of IoT technologies and [try IoT Ensemble](https://www.fathym.com/iot).

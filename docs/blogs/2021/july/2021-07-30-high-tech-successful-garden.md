@@ -2,7 +2,7 @@
 title: High-Teching Your Successful Garden with Fathym IoT Ensemble
 author: Rich Kurtzman
 author_title: Content Creator/Writer @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGEzQzrR9oF7g/profile-displayphoto-shrink_100_100/0/1516568821506?e=1631145600&v=beta&t=UbUTLFlBOv3frvSDHoy1ctdriXvsGDGLt9MHjq8VXCo
 tags: [iot, diy, gardening, weather station, temperature sensor, soil sensor, sparkfun, raspberry pi]
 keywords:
@@ -21,7 +21,7 @@ keywords:
 hide_table_of_contents: true
 --- 
 
-July 30, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
+> July 30, 2021 by Rich Kurtzman, _Content Creator/Writer @ Fathym_
 
 _To plant a garden is to believe in tomorrow._
 
@@ -33,7 +33,7 @@ Here in Colorado, gardening can come somewhat easy. There are 300 days of sunshi
 
 All that constant and consistent sun makes growing some vegetables -- like tomatoes, for instance -- a breeze. Beets, carrots and squash are easy to grow even for the most inexperienced of green thumbs, too. No wonder gardening is an extremely popular tradition here in the Centennial State. 
 
-![Vegetable Garden](https://www.iot-ensemble.com/img/screenshots/vegetable_garden.jpg)
+![Vegetable Garden](https://www.fathym.com/iot/img/screenshots/vegetable_garden.jpg)
 
 But others -- like peppers (unless you live in SE Colorado) -- can be difficult to grow here. And depending on your altitude, there are other variables that come into play as well. 
 
@@ -45,13 +45,13 @@ DIYers are the best. They’re innovative, ambitious and won’t let hurdles get
 
 So, if you are a tech. DIYer, maybe your thought is, “I should get a Raspberry Pi, and create my own weather station!” 
 
-But then what’s next? Luckily, Fathym and their **[IoT Ensemble](https://www.iot-ensemble.com)** make it extremely easy to upload that data to the cloud, make it accessible and then even store it for you. All for free! (At least, for your first device). 
+But then what’s next? Luckily, Fathym and their **[IoT Ensemble](https://www.fathym.com/iot)** make it extremely easy to upload that data to the cloud, make it accessible and then even store it for you. All for free! (At least, for your first device). 
 
 And that includes software which allows you to access the information on your home PC, a tablet or even from your phone. 
 
 Anyone can grow a garden but doing so effectively and maximizing your potential could be made so much easier with a home weather station. 
 
-![Home Weather Station](https://www.iot-ensemble.com/img/screenshots/home_weather_station.jpg)
+![Home Weather Station](https://www.fathym.com/iot/img/screenshots/home_weather_station.jpg)
 
 That’s because maybe one of the most difficult factors when it comes to gardening in Colorado is knowing when to start seeds outdoors, when to start them indoors and then, when it’s warm enough to move those plant babies out into the wild of your garden bed. 
 

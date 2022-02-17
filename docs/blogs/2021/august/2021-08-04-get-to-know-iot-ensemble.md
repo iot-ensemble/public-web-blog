@@ -2,7 +2,7 @@
 title: Get to Know Fathym IoT Ensemble
 author: Kim Loomis
 author_title: Product Owner @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.fathym.com
 author_image_url: https://avatars.githubusercontent.com/u/48728918?v=4
 tags: [iot, virtual developers, azure, micro-frontends, deployment, applications]
 keywords:
@@ -20,7 +20,7 @@ keywords:
 hide_table_of_contents: true
 --- 
 
-August 4, 2021 by Kim Loomis, _Product Owner @ Fathym_
+> August 4, 2021 by Kim Loomis, _Product Owner @ Fathym_
 
 :::note We're Listening
 
@@ -41,7 +41,7 @@ _Q: Wow. So help me understand exactly what you do, what are the "nuts and bolts
 
 IE: Another excellent question! This really gets into how I'm your "Virtual Developer". First, I provide the best practice IoT cloud infrastructure you need to process, store, and query your data. I handle the heavy lifting of automating and managing your best practice cloud environment. Regarding others on my team (my human teammates), I let them focus on visualization, machine learning, and application development. I provide APIs for storing and sending data downstream to other services, such as Power BI or Azure Machine Learning. **This allows my human counterparts to transform this data into valuable information or other assets such as applications or websites - the stuff that really helps grow an organization.**
 
-![Get to Know IoT Ensemble](https://www.iot-ensemble.com/img/magnifying-glass-computer_1000pixelwide.png)
+![Get to Know IoT Ensemble](https://www.fathym.com/iot/img/magnifying-glass-computer_1000pixelwide.png)
 
 _Q: Ok, let's pretend I'm an IoT Cloud Architect. What will you do for me?_
 
@@ -51,7 +51,7 @@ _Q: All right, you're convincing me! What if I'm an Embedded Device Engineer? Ho
 
 IE: I'm here for this one, too! Instead of soliciting the services of a busy Cloud Engineer, I will help that Device Engineer get a prototype working and sending data downstream quickly. **This allows the organization to make critical business decisions fast about which avenues to pursue and which to, well, not.**
 
-![IoT Ensemble](https://www.iot-ensemble.com/img/fathym-iot-hero.png)
+![IoT Ensemble](https://www.fathym.com/iot/img/fathym-iot-hero.png)
 
 _Q: Let me throw a curve ball here. What if IoT is not my main job and I'm a Maker or a DIY-er. Can you still help me?_
 
@@ -61,4 +61,4 @@ _Q: Awesome! Now I have to ask you about your spare time. Any hobbies?_
 
 IE: That's a funny question! I don't have any downtime. Call me a workaholic, but I love managing the cloud, abstracting complexity, being cost efficient, and making IoT easy for everyone all the time.
 
-Try **[IoT Ensemble](https://www.iot-ensemble.com)** today - it makes IoT easy!
+Try **[IoT Ensemble](https://www.fathym.com/iot)** today - it makes IoT easy!
