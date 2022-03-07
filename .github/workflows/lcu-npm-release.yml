@@ -1,0 +1,17 @@
+name: NPM - Release
+
+on:
+  push:
+    branches: [master,integration,feature/**]
+  pull_request:
+    branches: [master,integration,feature/**]
+
+env:
+  Branches: master,integration,feature/**
+  MainBranch: master
+  NPMRegistry: 
+  InstallCommand: 
+  DeployCommand: 
+  Organization: iot-ensemble
+  Repository: public-web-blog
+  Output: 
