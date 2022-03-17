@@ -88,7 +88,7 @@ In order to program our Pi and get connected, we will need to install a couple o
 2. Install the latest versions of system packages with  
 `sudo apt-get dist-upgrade`  
 3. Get the Node.js package we need to install by running  
-`curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash`  
+`curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash`  
 4. To install the Node.js package  
 `sudo apt-get install -y nodejs`  
 5. Finally download and install Node Red with command  
