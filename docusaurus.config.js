@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym IoT Ensemble Beta',
+  title: 'Fathym IoT Ensemble',
   tagline: 'Experience IoT in minutes | No credit card required',
   url: 'https://www.fathym.com/iot',
   baseUrl: '/iot/blog/',
@@ -24,14 +24,14 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'IoT Ensemble Beta',
+      title: 'IoT Ensemble',
       logo: {
         alt: 'IoT Ensemble',
         src: 'https://www.fathym.com/img/Fathym-logo-white-01.png',
       },
       items: [
         {
-          href: 'https://www.fathym.com/iot',
+          to: 'https://www.fathym.com/iot',
           label: 'Home',
           position: 'left',
           target: '_top',
@@ -50,7 +50,7 @@ module.exports = {
         // },
                 
         {
-          href: 'https://www.fathym.com/iot/docs',
+          to: 'https://www.fathym.com/iot/docs',
           label: 'Docs',
           position: 'right',
           target: '_top',
@@ -61,17 +61,17 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.fathym.com/dashboard/iot',
+          to: 'https://www.fathym.com/dashboard/iot',
           label: 'Sign In',
           position: 'right',
           target: '_top',
         },
-        {
-          href: 'https://www.fathym.com/dashboard/iot',
-          label: 'Sign Up',
-          position: 'right',
-          target: '_top',
-        },        
+        //{
+        //  href: 'https://www.fathym.com/dashboard/iot',
+        //  label: 'Sign Up',
+        //  position: 'right',
+        //  target: '_top',
+        //},        
       ],
     },
     footer: {
@@ -95,7 +95,7 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
+              to: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
             },
             //{
             //  label: 'Discord',
@@ -103,7 +103,7 @@ module.exports = {
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/iotensemble',
+              to: 'https://twitter.com/iotensemble',
             },
           ],
         },
@@ -112,7 +112,7 @@ module.exports = {
           items: [
             {
               label: 'Learn More',
-              href: 'https://www.fathym.com',
+              to: 'https://www.fathym.com',
             },
           ],
         },
