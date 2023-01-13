@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   title: 'Fathym IoT Ensemble',
   tagline: 'Experience IoT in minutes | No credit card required',
-  url: 'https://www.fathym.com/iot',
+  url: 'https://www.fathym.com/',
   baseUrl: '/iot/blog/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -22,6 +22,16 @@ module.exports = {
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
       disableSwitch: true,
+    },
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: 'rgb(24,25,26)',
+          dark: 'rgb(24,25,26)',
+        }
+      }
     },
     navbar: {
       title: 'IoT Ensemble',
@@ -145,5 +155,8 @@ module.exports = {
       },
     ],
   ],
-  // plugins: [path.resolve(__dirname, 'plugins/oribi')],
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom'),
+  // plugins: [path.resolve(__dirname, 'plugins/oribi')]
+],
 };
