@@ -5,8 +5,12 @@ on:
     branches: [master,integration,feature/**]
   pull_request:
     branches: [master,integration,feature/**]
+  workflow_dispatch:
+
+permissions: write-all
 
 env:
+  CI: false
   Branches: master,integration,feature/**
   MainBranch: master
   NPMRegistry: 
