@@ -41,7 +41,7 @@ _Q: Wow. So help me understand exactly what you do, what are the "nuts and bolts
 
 IE: Another excellent question! This really gets into how I'm your "Virtual Developer". First, I provide the best practice IoT cloud infrastructure you need to process, store, and query your data. I handle the heavy lifting of automating and managing your best practice cloud environment. Regarding others on my team (my human teammates), I let them focus on visualization, machine learning, and application development. I provide APIs for storing and sending data downstream to other services, such as Power BI or Azure Machine Learning. **This allows my human counterparts to transform this data into valuable information or other assets such as applications or websites - the stuff that really helps grow an organization.**
 
-![Get to Know IoT Ensemble](https://www.fathym.com/iot/img/magnifying-glass-computer_1000pixelwide.png)
+![Get to Know IoT Ensemble](https://www.fathym.com/iot/img/InternetOfThings.jpeg)
 
 _Q: Ok, let's pretend I'm an IoT Cloud Architect. What will you do for me?_
 
