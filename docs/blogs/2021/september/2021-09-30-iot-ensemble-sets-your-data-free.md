@@ -39,13 +39,11 @@ But there’s an inherent problem with data. In a lot (a lot!) of instances data
 
 The system might tout itself as a one-stop shop for the business. That is super attractive – one entity that can enable the business in all ways. But it’s tough to be an expert in all aspects of business. In truth, the data is locked away and its power is never realized. The system doesn’t get the business to their desired station at all or it gets them partway down the tracks. Numbers have to be crunched outside of the system. C-level decisions take weeks or months to be made. Sales and marketing look at different information or information differently and never get aligned. Customers start looking elsewhere when the business doesn’t meet their needs and smaller, more nimble companies start chomping away at the business.
 
-![Downstream Experts](https://www.fathym.com/iot/static/images/isometric-iot-ensemble-outputs-white.png)
+![Downstream Experts](https://www.fathym.com/iot/img/fathym_input_output.png)
 
 IoT Ensemble is not a one-stop shop. Instead, it’s a virtual developer that’s an expert at what it does - helping you connect devices, understand data and scale IoT applications. It thrives on getting data from your sensors to the cloud. It lets you easily view raw device message payloads, ensure data is streaming and confirm it’s the expected data. Finally, it makes the data accessible for downstream connections.
 
 And that’s where IoT Ensemble differs from many other IoT solutions. It doesn’t seek to be the end-all, be-all, by interpreting and analyzing the data. Instead, IoT Ensemble is your facilitator on your journey to realizing that ultra-valuable information. With IoT Ensemble’s Storage Access APIs, you have rapid access to IoT data, in a number of different formats, ready to be used with other expert systems.
-
-![Partners](https://www.fathym.com/iot/static/images/partners-curved.png)
 
 ✅ Do you want awesome **dashboards**? Take the data into Grafana.
 
